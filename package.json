@@ -1,0 +1,22 @@
+{
+  "name": "festival-timetable",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.5",
+    "astro": "^5.7.10",
+    "date-fns": "^4.1.0",
+    "tailwindcss": "^4.1.5"
+  },
+  "packageManager": "yarn@4.9.1",
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "prettier-plugin-astro": "^0.14.1"
+  }
+}

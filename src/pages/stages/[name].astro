@@ -1,0 +1,29 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import Act from "../../components/Act.astro";
+
+export async function getStaticPaths() {
+  const stages = await getCollection("stages");
+
+  return stages.map((stage) => ({
+    params: { name: stage.data.name.toLowerCase() },
+    props: { stage },
+  }));
+}
+
+const { stage } = Astro.props;
+---
+
+<Base title={stage.data.name}>
+  <h1 class="text-xl font-bold mb-2">{stage.data.name}</h1>
+  <ol>
+    {
+      stage.data.acts.map((act) => (
+        <li>
+          <Act {act} />
+        </li>
+      ))
+    }
+  </ol>
+</Base>

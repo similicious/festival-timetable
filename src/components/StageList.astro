@@ -1,0 +1,17 @@
+---
+import { getCollection } from "astro:content";
+
+const stages = await getCollection("stages");
+---
+
+<ul class="text-6xl">
+  {
+    stages.map((stage) => (
+      <li>
+        <a href={"/stages/" + stage.data.name.toLowerCase()}>
+          {stage.data.icon}
+        </a>
+      </li>
+    ))
+  }
+</ul>

@@ -1,0 +1,15 @@
+---
+import type { Act } from "../content.config";
+import { format, formatISO } from "date-fns";
+interface Props {
+  act: Act;
+}
+
+const act = Astro.props.act;
+
+const actTime = format(act.time, "HH:mm");
+const actTimeIso = formatISO(act.time);
+---
+
+<time datetime={actTimeIso}>{actTime}</time>
+{act.name}

@@ -1,0 +1,6 @@
+name: Atlantis
+icon: 🪼
+acts:
+  - name: Lala
+    type: "DJ"
+    time: "2025-01-02T11:00:00+01:00"
