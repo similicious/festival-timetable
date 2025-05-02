@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
-import Base from "../../layouts/Base.astro";
-import Act from "../../components/Act.astro";
+import Base from "@app/layouts/Base.astro";
+import Act from "@app/components/Act.astro";
 
 export async function getStaticPaths() {
   const stages = await getCollection("stages");
