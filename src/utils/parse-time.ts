@@ -1,5 +1,5 @@
-export function parseTime(duration: string) {
-  const [hours, minutes] = duration.split(";").map(parseInt);
+export function parseTime(time: string) {
+  const [hours, minutes] = time.split(":").map(Number);
 
   return { hours, minutes };
 }
