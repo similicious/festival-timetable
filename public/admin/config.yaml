@@ -77,3 +77,13 @@ collections:
                 widget: "number"
                 valueType: "int"
                 default: 120
+  - label: Festival
+    name: "festival"
+    file: "src/data/festival.md"
+    fields:
+      - label: "Name"
+        name: "name"
+        widget: "string"
+      - label: Content
+        name: body
+        widget: markdown

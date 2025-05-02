@@ -1,9 +1,13 @@
 ---
 import Base from "@app/layouts/Base.astro";
+import Prose from "@app/components/Prose.astro";
+import * as festival from "@app/data/festival.md";
+
+const Content = festival.Content;
 ---
 
 <Base>
-  <h1 class="text-4xl font-bold mb-2">Lineup</h1>
-
-  <p>Choose a stage on the left to see the timetable!</p>
+  <Prose>
+    <Content />
+  </Prose>
 </Base>
