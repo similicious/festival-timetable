@@ -7,10 +7,17 @@ interface Props {
 
 const act = Astro.props.act;
 
-const actTime = format(act.date, "HH:mm");
-const actTimeIso = formatISO(act.date);
+const actTime = format(act.startDate, "HH:mm");
+const actTimeIso = formatISO(act.startDate);
 ---
 
-<time datetime={actTimeIso}>{actTime}</time>
-{act.icon}
-{act.name}
+<span
+  data-act
+  data-act-start={formatISO(act.startDate)}
+  data-act-end={formatISO(act.endDate)}
+  class="data-act-active:text-pink-500 data-act-active:font-bold data-act-active:animate-pulse"
+>
+  <time datetime={actTimeIso}>{actTime}</time>
+  {act.icon}
+  {act.name}
+</span>

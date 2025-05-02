@@ -1,7 +1,7 @@
 import { defineCollection, z } from "astro:content";
 import { glob } from "astro/loaders";
 import { parseTime } from "@app/utils/parse-time";
-import { set } from "date-fns";
+import { add, set } from "date-fns";
 import { getActIcon } from "./utils/get-act-icon";
 
 const actTypeSchema = z.enum([
@@ -23,11 +23,13 @@ const actSchema = z
     return (date: Date) => {
       const { hours, minutes } = parseTime(time);
 
+      const startDate = set(date, { hours, minutes });
+
       return {
         name,
         type,
-        duration,
-        date: set(date, { hours, minutes }),
+        startDate: set(date, { hours, minutes }),
+        endDate: add(startDate, { minutes: duration }),
         icon: getActIcon(type),
       };
     };
@@ -43,7 +45,7 @@ const daySchema = z
 
     const transformedActs = acts
       .map((actTransform) => actTransform(date))
-      .sort((a, b) => a.date.valueOf() - b.date.valueOf());
+      .sort((a, b) => a.startDate.valueOf() - b.startDate.valueOf());
 
     return {
       date,

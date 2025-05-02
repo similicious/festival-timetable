@@ -30,3 +30,37 @@ const { stage } = Astro.props;
     }
   </ol>
 </Base>
+
+<script>
+  import { isAfter, isBefore } from "date-fns";
+
+  const currentDate = new Date();
+
+  function isActActive(element: Element) {
+    const actStart = new Date(
+      element.getAttribute("data-act-start") ?? new Date(0)
+    );
+    const actEnd = new Date(
+      element.getAttribute("data-act-end") ?? new Date(0)
+    );
+
+    return isAfter(currentDate, actStart) && isBefore(currentDate, actEnd);
+  }
+
+  function toggleActiveAct(options: { scrollIntoView: boolean }) {
+    document.querySelectorAll("[data-act]").forEach((element) => {
+      element.removeAttribute("data-act-active");
+      if (!isActActive(element)) {
+        return;
+      }
+      element.setAttribute("data-act-active", "true");
+
+      if (options.scrollIntoView) {
+        element.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    });
+  }
+
+  setInterval(() => toggleActiveAct({ scrollIntoView: false }), 60 * 1000);
+  toggleActiveAct({ scrollIntoView: true });
+</script>
