@@ -7,8 +7,11 @@
     <title>Content Manager</title>
     <link href="/admin/config.yaml" type="text/yaml" rel="cms-config-url" />
   </head>
-  <body>
-    <!-- Include the script that builds the page and powers Decap CMS -->
-    <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
-  </body>
+  <body></body>
 </html>
+
+<script>
+  import CMS from "@sveltia/cms";
+
+  CMS.init();
+</script>

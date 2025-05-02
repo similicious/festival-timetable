@@ -813,6 +813,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sveltia/cms@npm:^0.73.0":
+  version: 0.73.0
+  resolution: "@sveltia/cms@npm:0.73.0"
+  checksum: 10c0/2cdb5977a01f5be88c4625def966aa9047814581db693b63b834e2a48b09824f70ff4bedda14f65bdd7f2ff03a6b24fe3b76c2278642ff5a7f22b8d695fa094e
+  languageName: node
+  linkType: hard
+
 "@swc/helpers@npm:^0.5.12":
   version: 0.5.17
   resolution: "@swc/helpers@npm:0.5.17"
@@ -1867,6 +1874,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "festival-timetable@workspace:."
   dependencies:
+    "@sveltia/cms": "npm:^0.73.0"
     "@tailwindcss/vite": "npm:^4.1.5"
     astro: "npm:^5.7.10"
     date-fns: "npm:^4.1.0"
