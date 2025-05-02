@@ -3,8 +3,8 @@ local_backend: true
 media_folder: "src/assets/images" # Location where files will be stored in the repo
 public_folder: "src/assets/images" # The src attribute for uploaded media
 backend:
-  name: git-gateway
-  # repo: similicious/festival-timetable
+  name: github
+  repo: similicious/festival-timetable
   # site_domain: antoniaparr.com
   commit_messages:
     create: "content: create {{collection}} “{{slug}}”"
@@ -40,7 +40,8 @@ collections:
           - label: "Date"
             name: "date"
             widget: "datetime"
-            date_format: "YYYY-MM-DD"
+            format: "YYYY-MM-DD"
+            time_format: false
             default: "{{now}}"
           - label: "Acts"
             name: "acts"
@@ -69,9 +70,10 @@ collections:
               - label: "Time"
                 name: "time"
                 widget: "datetime"
-                time_format: "HH:mm"
+                format: "HH:mm"
+                date_format: false
               - label: "Duration"
                 name: "duration"
                 widget: "number"
-                value_type: "int"
+                valueType: "int"
                 default: 120
