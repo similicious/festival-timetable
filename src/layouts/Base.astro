@@ -17,14 +17,15 @@ const title = Astro.props.title;
     <meta name="generator" content={Astro.generator} />
     <title>Lineup {title ? `| ${title}` : ""}</title>
   </head>
-  <body>
-    <div class="container mx-auto grid grid-cols-12 gap-4">
-      <div class="col-span-2">
+  <body class="bg-zinc-800 text-zinc-200">
+    <div class="">
+      <nav class="fixed top-0 bottom-0 left-0 w-18 bg-zinc-700">
         <StageList />
-      </div>
-      <div class="col-span-10">
+      </nav>
+
+      <main class="ml-18 p-4">
         <slot />
-      </div>
+      </main>
     </div>
   </body>
 </html>

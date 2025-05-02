@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import Base from "@app/layouts/Base.astro";
-import Act from "@app/components/Act.astro";
+import StageDay from "@app/components/StageDay.astro";
 
 export async function getStaticPaths() {
   const stages = await getCollection("stages");
@@ -16,12 +16,12 @@ const { stage } = Astro.props;
 ---
 
 <Base title={stage.data.name}>
-  <h1 class="text-xl font-bold mb-2">{stage.data.name}</h1>
+  <h1 class="text-4xl font-bold mb-4">{stage.data.icon} {stage.data.name}</h1>
   <ol>
     {
-      stage.data.acts.map((act) => (
-        <li>
-          <Act {act} />
+      stage.data.days.map((stageDay) => (
+        <li class="mb-4">
+          <StageDay {stageDay} />
         </li>
       ))
     }

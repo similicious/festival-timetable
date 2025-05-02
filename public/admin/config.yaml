@@ -1,0 +1,77 @@
+local_backend: true
+
+media_folder: "src/assets/images" # Location where files will be stored in the repo
+public_folder: "src/assets/images" # The src attribute for uploaded media
+backend:
+  name: git-gateway
+  # repo: similicious/festival-timetable
+  # site_domain: antoniaparr.com
+  commit_messages:
+    create: "content: create {{collection}} “{{slug}}”"
+    update: "content: update {{collection}} “{{slug}}”"
+    delete: "content: delete {{collection}} “{{slug}}”"
+    uploadMedia: "content: upload “{{path}}”"
+    deleteMedia: "content: delete “{{path}}”"
+    openAuthoring: "content: '{{message}}'"
+
+collections:
+  - label: "Stages"
+    name: "stages"
+    folder: "src/data/stages"
+    create: true
+    label_singular: "Stage"
+    extension: "yaml"
+    summary: "{{icon}} {{name}}"
+    identifier_field: "name"
+    slug: "{{name}}"
+    fields:
+      - label: "Name"
+        name: "name"
+        widget: "string"
+      - label: "Icon"
+        name: "icon"
+        widget: "string"
+      - label: "Days"
+        name: "days"
+        widget: "list"
+        label_singular: "Day"
+        summary: "{{date | date('dddd')}} ({{date | date('YYYY-MM-DD')}})"
+        fields:
+          - label: "Date"
+            name: "date"
+            widget: "datetime"
+            date_format: "YYYY-MM-DD"
+            default: "{{now}}"
+          - label: "Acts"
+            name: "acts"
+            label_singular: "Act"
+            widget: "list"
+            summary: "{{time}} - {{name}}"
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
+              - label: "Type"
+                name: "type"
+                widget: "select"
+                options:
+                  - label: DJ 🎧
+                    value: dj
+                  - label: Band 🎸
+                    value: band
+                  - label: Performance 💃
+                    value: performance
+                  - label: Workshop 🧑‍🏫
+                    value: workshop
+                  - label: Other ❓
+                    value: other
+                default: dj
+              - label: "Time"
+                name: "time"
+                widget: "datetime"
+                time_format: "HH:mm"
+              - label: "Duration"
+                name: "duration"
+                widget: "number"
+                value_type: "int"
+                default: 120

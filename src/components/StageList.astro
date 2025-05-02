@@ -2,13 +2,21 @@
 import { getCollection } from "astro:content";
 
 const stages = await getCollection("stages");
+
+const page = Astro.url.pathname;
 ---
 
 <ul class="text-6xl">
   {
     stages.map((stage) => (
-      <li>
-        <a href={"/stages/" + stage.data.name.toLowerCase()}>
+      <li title={stage.data.name}>
+        <a
+          class="block text-center py-2"
+          class:list={{
+            "bg-zinc-800": page.includes(stage.data.name.toLowerCase()),
+          }}
+          href={"/stages/" + stage.data.name.toLowerCase()}
+        >
           {stage.data.icon}
         </a>
       </li>
