@@ -47,7 +47,7 @@ collections:
             name: "acts"
             label_singular: "Act"
             widget: "list"
-            summary: "{{time}} - {{name}}"
+            summary: "{{time}} - {{name}} - {{duration}}min"
             fields:
               - name: "id"
                 widget: "hidden"
