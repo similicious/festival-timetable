@@ -49,6 +49,9 @@ collections:
             widget: "list"
             summary: "{{time}} - {{name}}"
             fields:
+              - name: "id"
+                widget: "hidden"
+                default: "{{uuid_shorter}}"
               - label: "Name"
                 name: "name"
                 widget: "string"
