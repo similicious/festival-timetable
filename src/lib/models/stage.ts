@@ -3,6 +3,8 @@ import { add, set } from "date-fns";
 import { getActIcon } from "../utils/get-act-icon";
 import { z } from "zod";
 import { createSlug } from "../utils/create-slug";
+import { PUBLIC_DEMO_MODE } from "$env/static/public";
+import { addDays } from "date-fns";
 
 const actTypeSchema = z.enum([
   "dj",
@@ -35,13 +37,15 @@ const actSchema = z
     };
   });
 
-const daySchema = z
-  .object({
-    date: z.string().transform((date) => new Date(date)),
-    acts: z.array(actSchema),
-  })
-  .transform((day) => {
-    const { date, acts } = day;
+const daySchema = z.object({
+  date: z.string().transform((date) => new Date(date)),
+  acts: z.array(actSchema),
+});
+
+const daysSchema = z.array(daySchema).transform((days) =>
+  days.map(({ date, acts }, index) => {
+    // If the demo mode is active, pretend the festival is currently running
+    date = PUBLIC_DEMO_MODE === "on" ? addDays(new Date(), index - 1) : date;
 
     const transformedActs = acts
       .map((actTransform) => actTransform(date))
@@ -51,20 +55,21 @@ const daySchema = z
       date,
       acts: transformedActs,
     };
-  });
+  }),
+);
 
 export const stageSchema = z
   .object({
     name: z.string(),
     icon: z.string(),
-    days: z.array(daySchema),
+    days: daysSchema,
   })
   .transform((stage) => ({
     ...stage,
     slug: createSlug(stage.name),
   }));
 
-export type Act = ReturnType<z.infer<typeof actSchema>>;
-export type ActType = z.infer<typeof actTypeSchema>;
-export type StageDay = z.infer<typeof daySchema>;
 export type Stage = z.infer<typeof stageSchema>;
+export type StageDay = Stage["days"][0];
+export type ActType = z.infer<typeof actTypeSchema>;
+export type Act = StageDay["acts"][0];
