@@ -11,7 +11,7 @@ export function getNavigation(stages: Stage[]) {
 
   const about: NavigationItem = {
     path: "/about",
-    icon: "📍",
+    icon: "🧭",
     name: "About",
   };
 
