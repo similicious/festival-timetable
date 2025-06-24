@@ -2,7 +2,7 @@ This is an unofficial **timetable app** for **CoSy Festival 2025**. I'm not affi
 
 ## Install
 
-You can **add this website to your homescreen**. The website will then become available offline.
+You can **add this website to your homescreen**. The website will then become available offline. <a href="https://www.installpwa.com/from/cosy.tmtbl.de" target="_blank">See here how it's done!</a>
 
 ## Share
 
