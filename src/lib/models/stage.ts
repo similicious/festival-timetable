@@ -20,6 +20,7 @@ const actSchema = z
     type: actTypeSchema,
     time: z.string().regex(/\d{2}\:\d{2}/),
     duration: z.number(),
+    id: z.string(),
   })
   .transform(({ name, type, time, duration }) => {
     return (date: Date) => {
