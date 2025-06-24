@@ -5,6 +5,7 @@
   import { registerSW } from "virtual:pwa-register";
 
   import Navigation from "$lib/components/Navigation.svelte";
+  import { pageTitle } from "$lib/stores/page-title";
 
   const webManifestLink = $derived(pwaInfo ? pwaInfo.webManifest.linkTag : "");
 
@@ -23,5 +24,13 @@
 </nav>
 
 <main class="ml-18 p-4">
-  {@render children()}
+  <h1
+    class="fixed -mt-4 mb-4 w-full truncate bg-linear-to-b from-zinc-800 from-80% to-transparent pt-4 pb-4 text-4xl font-bold text-pink-500"
+  >
+    {$pageTitle}
+  </h1>
+
+  <article class="mt-12">
+    {@render children()}
+  </article>
 </main>

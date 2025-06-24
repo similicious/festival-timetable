@@ -1,19 +1,15 @@
 <script lang="ts">
-  import { format, isAfter, isBefore } from "date-fns";
+  import { format } from "date-fns";
   import { onMount, onDestroy } from "svelte";
-  import type { StageDay, Act } from "$lib/models/stage";
+  import type { StageDay } from "$lib/models/stage";
+  import { isActActive } from "$lib/utils/is-act-active";
+  import Act from "./Act.svelte";
 
   let { stageDay }: { stageDay: StageDay } = $props();
 
   // Make currentDate reactive
   let currentDate = $state(new Date());
   let intervalId: number;
-
-  function isActActive(act: Act): boolean {
-    return (
-      isAfter(currentDate, act.startDate) && isBefore(currentDate, act.endDate)
-    );
-  }
 
   function scrollActiveActIntoView() {
     const activeActElement = document.querySelector("[data-act-active]");
@@ -53,9 +49,7 @@
     {@const active = isActActive(act)}
     <li data-act-active={active === true ? true : null}>
       <span class={{ "animate-pulse font-bold text-pink-500": active }}>
-        {format(act.startDate, "HH:mm")}
-        {act.icon}
-        {act.name}
+        <Act {act}></Act>
       </span>
     </li>
   {/each}

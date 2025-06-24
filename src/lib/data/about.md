@@ -1,5 +1,5 @@
-# Bucht der Träumer 2024
+---
+name: About
+---
 
-Dies ist eine inoffizielle Timetable-App für das Bucht der Träumer Festival!
-
-## Just a test
+This is an unofficial timetable app for the CoSy Festival 2025.

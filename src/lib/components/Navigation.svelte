@@ -13,7 +13,7 @@
       ]}
       href="/"
     >
-      📍
+      🗓️
     </a>
   </li>
 
@@ -30,4 +30,16 @@
       </a>
     </li>
   {/each}
+
+  <li title="Home">
+    <a
+      class={[
+        "block rounded-l-lg py-2 text-center",
+        page.url.pathname === "/about" && "bg-zinc-800",
+      ]}
+      href="/about"
+    >
+      📍
+    </a>
+  </li>
 </ul>
