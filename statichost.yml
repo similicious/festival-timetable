@@ -1,0 +1,4 @@
+# Docker image to use for building
+image: node:lts
+command: corepack enable && yarn && yarn build
+public: build
