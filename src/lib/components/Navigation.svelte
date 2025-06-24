@@ -7,12 +7,12 @@
   const navigationItems = getNavigation(stages);
 </script>
 
-<ul class="text-6xl">
+<ul class="text-4xl">
   {#each navigationItems as item}
     <li title={item.name}>
       <a
         class={[
-          "block rounded-l-lg  py-2 text-center",
+          "block rounded-l-lg  py-4 text-center",
           page.url.pathname === item.path && "bg-zinc-800",
         ]}
         href={item.path}
