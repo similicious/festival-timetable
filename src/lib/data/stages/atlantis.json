@@ -1,234 +1,187 @@
 {
   "name": "Atlantis",
-  "icon": "🪼",
+  "icon": "🔱",
   "days": [
     {
-      "date": "2025-05-02",
+      "date": "2024-08-16",
       "acts": [
         {
-          "name": "uwe",
+          "name": "Mollono.Bass",
           "type": "dj",
-          "time": "15:00",
+          "time": "13:00",
+          "duration": 150,
+          "id": "d88795e5"
+        },
+        {
+          "name": "Krawalle & Liebe",
+          "type": "dj",
+          "time": "15:30",
           "duration": 120,
-          "id": "47d93dc3"
+          "id": "7967286c"
         },
         {
-          "name": "Bo Irion",
+          "name": "Bonnie Ford",
           "type": "dj",
-          "time": "17:00",
+          "time": "17:30",
           "duration": 120,
-          "id": "6e5d5d98"
+          "id": "f91a0e14"
         },
         {
-          "name": "Luna City Express",
+          "name": "Aio",
           "type": "dj",
-          "time": "19:00",
-          "duration": 180,
-          "id": "bf3a9252"
+          "time": "19:30",
+          "duration": 90,
+          "id": "a827fd09"
         },
         {
-          "name": "BASHKKA",
-          "type": "dj",
-          "time": "22:00",
-          "duration": 120,
-          "id": "63ad25c6"
-        }
-      ]
-    },
-    {
-      "date": "2025-05-03",
-      "acts": [
-        {
-          "name": "Jaxx TMS",
-          "type": "dj",
-          "time": "00:00",
-          "duration": 120,
-          "id": "151c71a6"
-        },
-        {
-          "name": "Ludwig A.F.",
-          "type": "dj",
-          "time": "02:00",
-          "duration": 120,
-          "id": "f4fac972"
-        },
-        {
-          "name": "Sven Weisemann",
-          "type": "dj",
-          "time": "04:00",
-          "duration": 120,
-          "id": "9f08550d"
-        },
-        {
-          "name": "Josiane",
-          "type": "dj",
-          "time": "06:00",
-          "duration": 120,
-          "id": "e04fe17a"
-        },
-        {
-          "name": "Slurm McKenzie",
-          "type": "dj",
-          "time": "08:00",
-          "duration": 120,
-          "id": "b1983c23"
-        },
-        {
-          "name": "Hannes Fischer",
-          "type": "dj",
-          "time": "10:00",
-          "duration": 120,
-          "id": "045bf828"
-        },
-        {
-          "name": "Rosa Kante",
-          "type": "dj",
-          "time": "12:00",
-          "duration": 120,
-          "id": "2c3a1624"
-        },
-        {
-          "name": "DJ Norma b2b Greta Spark",
-          "type": "dj",
-          "time": "14:00",
-          "duration": 180,
-          "id": "ad9b6aa8"
-        },
-        {
-          "name": "Babxi",
-          "type": "dj",
-          "time": "17:00",
-          "duration": 120,
-          "id": "d3b165eb"
-        },
-        {
-          "name": "SHI",
-          "type": "dj",
-          "time": "19:00",
-          "duration": 120,
-          "id": "8d7e5f01"
-        },
-        {
-          "name": "Meggy",
+          "name": "Sheila & Surreal",
           "type": "dj",
           "time": "21:00",
           "duration": 120,
-          "id": "90a8df99"
+          "id": "c7f89f45"
         },
         {
-          "name": "Kotelett",
+          "name": "Ogazón",
           "type": "dj",
           "time": "23:00",
           "duration": 120,
-          "id": "138eddf6"
+          "id": "fe13d390"
         }
       ]
     },
     {
-      "date": "2025-05-04",
+      "date": "2024-08-17",
       "acts": [
         {
-          "name": "Sarah Wild",
+          "name": "Ellen Allien",
           "type": "dj",
           "time": "01:00",
           "duration": 120,
-          "id": "b81cffe0"
+          "id": "d96e20c2"
         },
         {
-          "name": "JoMa Beton",
+          "name": "Nur Jaber",
           "type": "dj",
           "time": "03:00",
           "duration": 120,
-          "id": "7d9aaf81"
+          "id": "06702509"
         },
         {
-          "name": "BERF",
+          "name": "Lifka",
           "type": "dj",
           "time": "05:00",
-          "duration": 120,
-          "id": "122bbd94"
+          "duration": 60,
+          "id": "4be11705"
         },
         {
-          "name": "Carl Berges",
+          "name": "SHA",
           "type": "dj",
-          "time": "07:00",
+          "time": "06:00",
           "duration": 120,
-          "id": "8378624d"
+          "id": "a7edda8b"
         },
         {
-          "name": "Sam Buka",
-          "type": "dj",
-          "time": "09:00",
-          "duration": 120,
-          "id": "dd55398a"
-        },
-        {
-          "name": "Gulliver Klapprad",
-          "type": "dj",
-          "time": "11:00",
-          "duration": 120,
-          "id": "03919dc0"
-        },
-        {
-          "name": "Naomi (w/ T3K & Friends)",
+          "name": "Andreas Rauscher",
           "type": "dj",
           "time": "13:00",
           "duration": 120,
-          "id": "000fbfb9"
+          "id": "1620963c"
         },
         {
-          "name": "Kid Simius",
+          "name": "Reign of Time",
           "type": "dj",
           "time": "15:00",
+          "duration": 120,
+          "id": "fdd7f932"
+        },
+        {
+          "name": "Elias Goldmund & Naicet",
+          "type": "dj",
+          "time": "17:00",
+          "duration": 120,
+          "id": "af4a1dee"
+        },
+        {
+          "name": "Roman Adam",
+          "type": "dj",
+          "time": "19:00",
+          "duration": 120,
+          "id": "0d52e0c4"
+        },
+        {
+          "name": "Anahit Vardanyan",
+          "type": "dj",
+          "time": "21:00",
           "duration": 60,
-          "id": "68b707ea"
+          "id": "45146728"
         },
         {
-          "name": "Giulia Gutterer",
+          "name": "Hyperaktivist",
           "type": "dj",
-          "time": "16:00",
+          "time": "22:00",
           "duration": 120,
-          "id": "cfcf5976"
-        },
-        {
-          "name": "KILIMANJARO",
-          "type": "dj",
-          "time": "18:00",
-          "duration": 120,
-          "id": "2919f339"
-        },
-        {
-          "name": "Kotoe & Madmotormiquel",
-          "type": "dj",
-          "time": "20:00",
-          "duration": 150,
-          "id": "467d511c"
-        },
-        {
-          "name": "Mira & Chris Schwarzwälder",
-          "type": "dj",
-          "time": "22:30",
-          "duration": 180,
-          "id": "f8d5c158"
+          "id": "e1639160"
         }
       ]
     },
     {
-      "date": "2025-05-05",
+      "date": "2024-08-18",
       "acts": [
         {
-          "name": "Gitte Verführt",
+          "name": "Rødhåd",
           "type": "dj",
-          "time": "01:30",
-          "duration": 120,
-          "id": "cf481087"
+          "time": "00:00",
+          "duration": 180,
+          "id": "ab3e18d7"
         },
         {
-          "name": "Dan Dahlmann",
+          "name": "Eliza Feliz",
           "type": "dj",
-          "time": "03:30",
-          "duration": 150,
-          "id": "2ba57668"
+          "time": "03:00",
+          "duration": 120,
+          "id": "5e397d47"
+        },
+        {
+          "name": "Dakz",
+          "type": "dj",
+          "time": "05:00",
+          "duration": 120,
+          "id": "ffbca708"
+        },
+        {
+          "name": "TraumaMia",
+          "type": "dj",
+          "time": "12:00",
+          "duration": 120,
+          "id": "69dbb2fd"
+        },
+        {
+          "name": "SILSAN",
+          "type": "dj",
+          "time": "14:00",
+          "duration": 120,
+          "id": "fed213f8"
+        },
+        {
+          "name": "BLANCAh",
+          "type": "dj",
+          "time": "16:00",
+          "duration": 120,
+          "id": "98209013"
+        },
+        {
+          "name": "Oliver Huntemann",
+          "type": "dj",
+          "time": "18:00",
+          "duration": 120,
+          "id": "b684e9c5"
+        },
+        {
+          "name": "Kaufmann",
+          "type": "dj",
+          "time": "20:00",
+          "duration": 120,
+          "id": "e8ff6747"
         }
       ]
     }

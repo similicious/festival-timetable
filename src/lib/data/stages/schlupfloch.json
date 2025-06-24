@@ -1,0 +1,236 @@
+{
+  "name": "Schlupfloch",
+  "icon": "🌀",
+  "days": [
+    {
+      "date": "2024-08-16",
+      "acts": [
+        {
+          "name": "uwe",
+          "type": "dj",
+          "time": "15:00",
+          "duration": 120,
+          "id": "47d93dc3"
+        },
+        {
+          "name": "Bo Irion",
+          "type": "dj",
+          "time": "17:00",
+          "duration": 120,
+          "id": "6e5d5d98"
+        },
+        {
+          "name": "Luna City Express",
+          "type": "dj",
+          "time": "19:00",
+          "duration": 180,
+          "id": "bf3a9252"
+        },
+        {
+          "name": "BASHKKA",
+          "type": "dj",
+          "time": "22:00",
+          "duration": 120,
+          "id": "63ad25c6"
+        }
+      ]
+    },
+    {
+      "date": "2024-08-17",
+      "acts": [
+        {
+          "name": "Jaxx TMS",
+          "type": "dj",
+          "time": "00:00",
+          "duration": 120,
+          "id": "151c71a6"
+        },
+        {
+          "name": "Ludwig A.F.",
+          "type": "dj",
+          "time": "02:00",
+          "duration": 120,
+          "id": "f4fac972"
+        },
+        {
+          "name": "Sven Weisemann",
+          "type": "dj",
+          "time": "04:00",
+          "duration": 120,
+          "id": "9f08550d"
+        },
+        {
+          "name": "Josiane",
+          "type": "dj",
+          "time": "06:00",
+          "duration": 120,
+          "id": "e04fe17a"
+        },
+        {
+          "name": "Slurm McKenzie",
+          "type": "dj",
+          "time": "08:00",
+          "duration": 120,
+          "id": "b1983c23"
+        },
+        {
+          "name": "Hannes Fischer",
+          "type": "dj",
+          "time": "10:00",
+          "duration": 120,
+          "id": "045bf828"
+        },
+        {
+          "name": "Rosa Kante",
+          "type": "dj",
+          "time": "12:00",
+          "duration": 120,
+          "id": "2c3a1624"
+        },
+        {
+          "name": "DJ Norma b2b Greta Spark",
+          "type": "dj",
+          "time": "14:00",
+          "duration": 180,
+          "id": "ad9b6aa8"
+        },
+        {
+          "name": "Babxi",
+          "type": "dj",
+          "time": "17:00",
+          "duration": 120,
+          "id": "d3b165eb"
+        },
+        {
+          "name": "SHI",
+          "type": "dj",
+          "time": "19:00",
+          "duration": 120,
+          "id": "8d7e5f01"
+        },
+        {
+          "name": "Meggy",
+          "type": "dj",
+          "time": "21:00",
+          "duration": 120,
+          "id": "90a8df99"
+        },
+        {
+          "name": "Kotelett",
+          "type": "dj",
+          "time": "23:00",
+          "duration": 120,
+          "id": "138eddf6"
+        }
+      ]
+    },
+    {
+      "date": "2024-08-18",
+      "acts": [
+        {
+          "name": "Sarah Wild",
+          "type": "dj",
+          "time": "01:00",
+          "duration": 120,
+          "id": "b81cffe0"
+        },
+        {
+          "name": "JoMa Beton",
+          "type": "dj",
+          "time": "03:00",
+          "duration": 120,
+          "id": "7d9aaf81"
+        },
+        {
+          "name": "BERF",
+          "type": "dj",
+          "time": "05:00",
+          "duration": 120,
+          "id": "122bbd94"
+        },
+        {
+          "name": "Carl Berges",
+          "type": "dj",
+          "time": "07:00",
+          "duration": 120,
+          "id": "8378624d"
+        },
+        {
+          "name": "Sam Buka",
+          "type": "dj",
+          "time": "09:00",
+          "duration": 120,
+          "id": "dd55398a"
+        },
+        {
+          "name": "Gulliver Klapprad",
+          "type": "dj",
+          "time": "11:00",
+          "duration": 120,
+          "id": "03919dc0"
+        },
+        {
+          "name": "Naomi (w/ T3K & Friends)",
+          "type": "dj",
+          "time": "13:00",
+          "duration": 120,
+          "id": "000fbfb9"
+        },
+        {
+          "name": "Kid Simius",
+          "type": "dj",
+          "time": "15:00",
+          "duration": 60,
+          "id": "68b707ea"
+        },
+        {
+          "name": "Giulia Gutterer",
+          "type": "dj",
+          "time": "16:00",
+          "duration": 120,
+          "id": "cfcf5976"
+        },
+        {
+          "name": "KILIMANJARO",
+          "type": "dj",
+          "time": "18:00",
+          "duration": 120,
+          "id": "2919f339"
+        },
+        {
+          "name": "Kotoe & Madmotormiquel",
+          "type": "dj",
+          "time": "20:00",
+          "duration": 150,
+          "id": "467d511c"
+        },
+        {
+          "name": "Mira & Chris Schwarzwälder",
+          "type": "dj",
+          "time": "22:30",
+          "duration": 180,
+          "id": "f8d5c158"
+        }
+      ]
+    },
+    {
+      "date": "2024-08-19",
+      "acts": [
+        {
+          "name": "Gitte Verführt",
+          "type": "dj",
+          "time": "01:30",
+          "duration": 120,
+          "id": "cf481087"
+        },
+        {
+          "name": "Dan Dahlmann",
+          "type": "dj",
+          "time": "03:30",
+          "duration": 150,
+          "id": "2ba57668"
+        }
+      ]
+    }
+  ]
+}
