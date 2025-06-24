@@ -1,45 +1,24 @@
 <script lang="ts">
   import type { Stage } from "$lib/models/stage";
   import { page } from "$app/state";
+  import { getNavigation } from "$lib/utils/get-navigation";
   let { stages }: { stages: Stage[] } = $props();
+
+  const navigationItems = getNavigation(stages);
 </script>
 
 <ul class="text-6xl">
-  <li title="Home">
-    <a
-      class={[
-        "block rounded-l-lg py-2 text-center",
-        page.url.pathname === "/" && "bg-zinc-800",
-      ]}
-      href="/"
-    >
-      🗓️
-    </a>
-  </li>
-
-  {#each stages as stage}
-    <li title={stage.name}>
+  {#each navigationItems as item}
+    <li title={item.name}>
       <a
         class={[
           "block rounded-l-lg  py-2 text-center",
-          page.params.slug === stage.name.toLowerCase() && "bg-zinc-800",
+          page.url.pathname === item.path && "bg-zinc-800",
         ]}
-        href={"/stages/" + stage.slug}
+        href={item.path}
       >
-        {stage.icon}
+        {item.icon}
       </a>
     </li>
   {/each}
-
-  <li title="Home">
-    <a
-      class={[
-        "block rounded-l-lg py-2 text-center",
-        page.url.pathname === "/about" && "bg-zinc-800",
-      ]}
-      href="/about"
-    >
-      📍
-    </a>
-  </li>
 </ul>

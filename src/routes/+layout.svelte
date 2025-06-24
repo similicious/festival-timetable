@@ -3,14 +3,22 @@
 
   import { pwaInfo } from "virtual:pwa-info";
   import { registerSW } from "virtual:pwa-register";
+  import { page } from "$app/state";
 
   import Navigation from "$lib/components/Navigation.svelte";
-  import { pageTitle } from "$lib/stores/page-title";
+  import { getNavigation } from "$lib/utils/get-navigation";
 
   const webManifestLink = $derived(pwaInfo ? pwaInfo.webManifest.linkTag : "");
 
   let { children, data } = $props();
   const stages = data.stages;
+  const navigation = getNavigation(stages);
+
+  let navigationItem = $derived(
+    navigation.find((item) => item.path === page.url.pathname),
+  );
+
+  let pageTitle = $derived(`${navigationItem?.icon} ${navigationItem?.name}`);
 
   registerSW();
 </script>
@@ -27,7 +35,7 @@
   <h1
     class="fixed -mt-4 mb-4 w-full truncate bg-linear-to-b from-zinc-800 from-80% to-transparent pt-4 pb-4 text-4xl font-bold text-pink-500"
   >
-    {$pageTitle}
+    {pageTitle}
   </h1>
 
   <article class="mt-12">
