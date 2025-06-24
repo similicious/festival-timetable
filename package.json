@@ -1,24 +1,44 @@
 {
-  "name": "festival-timetable",
-  "type": "module",
+  "name": "festival-timetable-sveltekit",
+  "private": true,
   "version": "0.0.1",
+  "type": "module",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "dev": "vite dev",
+    "build": "svelte-kit sync && vite build",
+    "preview": "vite preview",
+    "prepare": "svelte-kit sync || echo ''",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "format": "prettier --write .",
+    "lint": "prettier --check ."
   },
-  "dependencies": {
-    "@sveltia/cms": "^0.73.0",
-    "@tailwindcss/vite": "^4.1.5",
-    "astro": "^5.7.10",
-    "date-fns": "^4.1.0",
-    "tailwindcss": "^4.1.5"
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^3.0.8",
+    "@sveltejs/kit": "^2.22.0",
+    "@sveltejs/vite-plugin-svelte": "^5.1.0",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tailwindcss/vite": "^4.1.10",
+    "@types/lodash-es": "^4.17.12",
+    "@vite-pwa/assets-generator": "^1.0.0",
+    "@vite-pwa/sveltekit": "^1.0.0",
+    "mdsvex": "0.12.6",
+    "prettier": "^3.6.0",
+    "prettier-plugin-svelte": "^3.4.0",
+    "prettier-plugin-tailwindcss": "^0.6.13",
+    "rollup-plugin-visualizer": "^6.0.3",
+    "svelte": "^5.34.7",
+    "svelte-check": "^4.2.2",
+    "tailwindcss": "^4.1.10",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-devtools-json": "^0.2.0"
   },
   "packageManager": "yarn@4.9.1",
-  "devDependencies": {
-    "@tailwindcss/typography": "^0.5.16",
-    "prettier": "^3.5.3",
-    "prettier-plugin-astro": "^0.14.1"
+  "dependencies": {
+    "@sveltia/cms": "^0.81.0",
+    "date-fns": "^4.1.0",
+    "lodash-es": "^4.17.21",
+    "zod": "^3.25.67"
   }
 }

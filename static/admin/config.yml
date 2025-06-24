@@ -1,0 +1,95 @@
+local_backend: true
+
+media_folder: "src/assets/images" # Location where files will be stored in the repo
+public_folder: "src/assets/images" # The src attribute for uploaded media
+backend:
+  name: github
+  repo: similicious/festival-timetable
+  # site_domain: antoniaparr.com
+  commit_messages:
+    create: "content: create {{collection}} “{{slug}}”"
+    update: "content: update {{collection}} “{{slug}}”"
+    delete: "content: delete {{collection}} “{{slug}}”"
+    uploadMedia: "content: upload “{{path}}”"
+    deleteMedia: "content: delete “{{path}}”"
+    openAuthoring: "content: '{{message}}'"
+
+collections:
+  - label: "Stages"
+    name: "stages"
+    folder: "src/lib/data/stages"
+    create: true
+    label_singular: "Stage"
+    extension: "json"
+    summary: "{{icon}} {{name}}"
+    identifier_field: "name"
+    slug: "{{name}}"
+    fields:
+      - label: "Name"
+        name: "name"
+        widget: "string"
+      - label: "Icon"
+        name: "icon"
+        widget: "string"
+      - label: "Days"
+        name: "days"
+        widget: "list"
+        label_singular: "Day"
+        summary: "{{date | date('dddd')}} ({{date | date('YYYY-MM-DD')}})"
+        fields:
+          - label: "Date"
+            name: "date"
+            widget: "datetime"
+            format: "YYYY-MM-DD"
+            time_format: false
+            default: "{{now}}"
+          - label: "Acts"
+            name: "acts"
+            label_singular: "Act"
+            widget: "list"
+            summary: "{{time}} - {{name}} - {{duration}}min"
+            fields:
+              - name: "id"
+                widget: "hidden"
+                default: "{{uuid_shorter}}"
+              - label: "Name"
+                name: "name"
+                widget: "string"
+              - label: "Type"
+                name: "type"
+                widget: "select"
+                options:
+                  - label: DJ 🎧
+                    value: dj
+                  - label: Band 🎸
+                    value: band
+                  - label: Performance 💃
+                    value: performance
+                  - label: Workshop 🧑‍🏫
+                    value: workshop
+                  - label: Other ❓
+                    value: other
+                default: dj
+              - label: "Time"
+                name: "time"
+                widget: "datetime"
+                format: "HH:mm"
+                date_format: false
+              - label: "Duration"
+                name: "duration"
+                widget: "number"
+                valueType: "int"
+                default: 120
+  - label: Pages
+    name: "pages"
+    files:
+      - label: "Festival"
+        name: "festival"
+        file: "src/lib/data/festival.md"
+        fields:
+          - label: "Name"
+            name: "name"
+            widget: "string"
+          - label: Content
+            name: body
+            widget: markdown
