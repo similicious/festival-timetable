@@ -9,31 +9,36 @@
           "name": "Mojis",
           "type": "dj",
           "time": "16:00",
-          "duration": 120
+          "duration": 120,
+          "id": "83a15951"
         },
         {
           "name": "Ezqizita X Robiwan",
           "type": "dj",
           "time": "18:00",
-          "duration": 120
+          "duration": 120,
+          "id": "f816d709"
         },
         {
           "name": "Secret Act",
           "type": "dj",
           "time": "20:00",
-          "duration": 60
+          "duration": 60,
+          "id": "8b8ddca0"
         },
         {
           "name": "Audae",
           "type": "dj",
           "time": "21:20",
-          "duration": 60
+          "duration": 60,
+          "id": "70a8346d"
         },
         {
           "name": "AFAR",
           "type": "dj",
           "time": "22:40",
-          "duration": 70
+          "duration": 70,
+          "id": "afdff072"
         }
       ]
     },
@@ -44,85 +49,99 @@
           "name": "Kon Faber",
           "type": "dj",
           "time": "00:00",
-          "duration": 90
+          "duration": 90,
+          "id": "2a92c1be"
         },
         {
           "name": "mademoiselle",
           "type": "dj",
           "time": "01:30",
-          "duration": 120
+          "duration": 120,
+          "id": "e7e9a72f"
         },
         {
           "name": "Roe Deers",
           "type": "dj",
           "time": "03:30",
-          "duration": 120
+          "duration": 120,
+          "id": "3c8e4845"
         },
         {
           "name": "Sibilë",
           "type": "dj",
           "time": "05:30",
-          "duration": 120
+          "duration": 120,
+          "id": "47d55d15"
         },
         {
           "name": "Atric",
           "type": "dj",
           "time": "07:30",
-          "duration": 60
+          "duration": 60,
+          "id": "fc2c1f8e"
         },
         {
           "name": "soso klein",
           "type": "dj",
           "time": "08:30",
-          "duration": 120
+          "duration": 120,
+          "id": "1710f5b7"
         },
         {
           "name": "Bisu b2b MaKa",
           "type": "dj",
           "time": "10:30",
-          "duration": 120
+          "duration": 120,
+          "id": "de8ab200"
         },
         {
           "name": "Iva Bodul",
           "type": "dj",
           "time": "12:30",
-          "duration": 60
+          "duration": 60,
+          "id": "14ac150c"
         },
         {
           "name": "Zynzn",
           "type": "dj",
           "time": "13:30",
-          "duration": 120
+          "duration": 120,
+          "id": "435002f4"
         },
         {
           "name": "Tasty + Tanzen 3000",
           "type": "dj",
           "time": "15:30",
-          "duration": 150
+          "duration": 150,
+          "id": "149f51b7"
         },
         {
           "name": "Sörös",
           "type": "dj",
           "time": "18:00",
-          "duration": 120
+          "duration": 120,
+          "id": "6731854b"
         },
         {
           "name": "Antaares",
           "type": "dj",
           "time": "20:00",
-          "duration": 90
+          "duration": 90,
+          "id": "7dcc3ba5"
         },
         {
           "name": "Weam Ismail",
           "type": "dj",
           "time": "21:30",
-          "duration": 90
+          "duration": 90,
+          "id": "f1415026"
         },
         {
           "name": "Hot Oasis",
           "type": "dj",
           "time": "23:00",
-          "duration": 120
+          "duration": 120,
+          "id": "2b1649e8"
         }
       ]
     },
@@ -133,79 +152,92 @@
           "name": "Magician on Duty",
           "type": "dj",
           "time": "01:00",
-          "duration": 120
+          "duration": 120,
+          "id": "bab4108c"
         },
         {
           "name": "Saraab",
           "type": "dj",
           "time": "03:00",
-          "duration": 90
+          "duration": 90,
+          "id": "731ccc0b"
         },
         {
           "name": "Lemonella",
           "type": "dj",
           "time": "04:30",
-          "duration": 120
+          "duration": 120,
+          "id": "cb58e2d5"
         },
         {
           "name": "Leni",
           "type": "dj",
           "time": "06:30",
-          "duration": 120
+          "duration": 120,
+          "id": "1f443b96"
         },
         {
           "name": "Deep Ändi",
           "type": "dj",
           "time": "08:30",
-          "duration": 90
+          "duration": 90,
+          "id": "adc01690"
         },
         {
           "name": "Urem x Ouhana",
           "type": "dj",
           "time": "10:00",
-          "duration": 120
+          "duration": 120,
+          "id": "c58b967e"
         },
         {
           "name": "Pulli & Chomba",
           "type": "dj",
           "time": "12:00",
-          "duration": 150
+          "duration": 150,
+          "id": "1ef96015"
         },
         {
           "name": "Burntale",
           "type": "dj",
           "time": "14:30",
-          "duration": 120
+          "duration": 120,
+          "id": "819523c9"
         },
         {
           "name": "Alicia Carrera",
           "type": "dj",
           "time": "16:30",
-          "duration": 120
+          "duration": 120,
+          "id": "11816c61"
         },
         {
           "name": "Saeko Killy",
           "type": "dj",
           "time": "19:00",
-          "duration": 60
+          "duration": 60,
+          "id": "6647a5b3"
         },
         {
           "name": "Mitsune",
           "type": "dj",
           "time": "20:30",
-          "duration": 90
+          "duration": 90,
+          "id": "96f8ee7e"
         },
         {
           "name": "The Saga Continues",
           "type": "dj",
           "time": "22:00",
-          "duration": 60
+          "duration": 60,
+          "id": "25e3b7ca"
         },
         {
           "name": "Lotte Ahoi",
           "type": "dj",
           "time": "23:00",
-          "duration": 90
+          "duration": 90,
+          "id": "b32edf32"
         }
       ]
     },
@@ -216,20 +248,22 @@
           "name": "Downtwopuss",
           "type": "dj",
           "time": "01:30",
-          "duration": 150
+          "duration": 150,
+          "id": "e71a27db"
         },
         {
           "name": "Iris Anahata",
           "type": "dj",
           "time": "04:00",
-          "duration": 120
+          "duration": 120,
+          "id": "8d2e1b02"
         },
         {
-          "id": "68559626",
           "name": "test",
           "type": "dj",
           "time": "06:00",
-          "duration": 120
+          "duration": 120,
+          "id": "bc360e5c"
         }
       ]
     }
