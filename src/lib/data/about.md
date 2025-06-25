@@ -6,7 +6,7 @@ You can **add this website to your homescreen**. The website will then become av
 
 ## Share
 
-QR Code
+<img src="/qr-code.svg" alt="QR Code containing a link to this app" class="w-full h-auto mb-0 max-w-128 p-5">
 
 ## Made with ❤️ by similicious
 

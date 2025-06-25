@@ -3391,6 +3391,7 @@ __metadata:
     "@vite-pwa/assets-generator": "npm:^1.0.0"
     "@vite-pwa/sveltekit": "npm:^1.0.0"
     date-fns: "npm:^4.1.0"
+    lean-qr: "npm:^2.5.0"
     lodash-es: "npm:^4.17.21"
     mdsvex: "npm:0.12.6"
     prettier: "npm:^3.6.0"
@@ -4204,6 +4205,15 @@ __metadata:
   version: 1.8.0
   resolution: "kolorist@npm:1.8.0"
   checksum: 10c0/73075db44a692bf6c34a649f3b4b3aea4993b84f6b754cbf7a8577e7c7db44c0bad87752bd23b0ce533f49de2244ce2ce03b7b1b667a85ae170a94782cc50f9b
+  languageName: node
+  linkType: hard
+
+"lean-qr@npm:^2.5.0":
+  version: 2.5.0
+  resolution: "lean-qr@npm:2.5.0"
+  bin:
+    lean-qr: cli.mjs
+  checksum: 10c0/6c5721ca40c75a12ce671b6d3fef8090eadd750546ee5712a2a632dcad176f34b47f330a7a4605c76b02f2c5e7ca6bdab35d391aef84b3b4ea2363724a792b44
   languageName: node
   linkType: hard
 
