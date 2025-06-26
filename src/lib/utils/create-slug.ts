@@ -1,4 +1,4 @@
-import { deburr } from "lodash-es";
+import deburr from "lodash-es/deburr";
 
 export function createSlug(title: string): string {
   return (

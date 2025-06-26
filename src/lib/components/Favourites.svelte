@@ -3,7 +3,7 @@
   import { favouriteActIds } from "$lib/stores/favourite-act-ids";
   import { format, formatISO, parseISO, startOfDay } from "date-fns";
   import Act from "./Act.svelte";
-  import { groupBy } from "lodash-es";
+  import groupBy from "lodash-es/groupBy";
 
   let { stages }: { stages: Stage[] } = $props();
 
