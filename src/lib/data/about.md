@@ -11,3 +11,7 @@ You can **add this website to your homescreen**. The website will then become av
 ## Made with ❤️ by similicious
 
 Hi, I'm <a href="https://github.com/similicious" target="_blank">similicious</a> and I built this app in my free time. This timetable app is free software, feel free to <a href="https://github.com/similicious/festival-timetable" target="_blank">check out the code</a> and use it for your event! I'm also happy to hear your feedback. Contact me via <a href="https://t.me/similicious" target="_blank">Telegram</a>.
+
+## Credits
+
+The App logo is created by <a href="https://www.flaticon.com/free-icons/disco-ball" target="_blank" title="disco ball icons">Ehtisham Abid - Flaticon</a>. Thank you! 💃
