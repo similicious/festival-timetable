@@ -48,6 +48,6 @@
     {/each}
   </ol>
 {/if}
-{#if searchResults.length === 0 && searchTerm.length >= 1}
+{#if searchResults.length === 0 && searchTerm.length >= 3}
   <p>❌ Sorry, could not find anything.</p>
 {/if}
