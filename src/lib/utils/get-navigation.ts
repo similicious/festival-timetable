@@ -9,6 +9,12 @@ export function getNavigation(stages: Stage[]) {
     name: "Overview",
   };
 
+  const favourites: NavigationItem = {
+    path: "/favourites",
+    icon: "❤️",
+    name: "Favourites",
+  };
+
   const about: NavigationItem = {
     path: "/about",
     icon: "🧭",
@@ -23,5 +29,5 @@ export function getNavigation(stages: Stage[]) {
     }),
   );
 
-  return [overview, ...stageNavigationItems, about];
+  return [overview, favourites, ...stageNavigationItems, about];
 }

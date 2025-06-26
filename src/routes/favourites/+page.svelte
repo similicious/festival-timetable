@@ -7,4 +7,4 @@
   let { data }: PageProps = $props();
 </script>
 
-<CurrentlyPlaying stages={data.stages}></CurrentlyPlaying>
+<Favourites stages={data.stages}></Favourites>

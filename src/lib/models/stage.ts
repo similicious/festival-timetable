@@ -22,13 +22,14 @@ const actSchema = z
     duration: z.number(),
     id: z.string(),
   })
-  .transform(({ name, type, time, duration }) => {
+  .transform(({ name, type, time, duration, id }) => {
     return (date: Date) => {
       const { hours, minutes } = parseTime(time);
 
       const startDate = set(date, { hours, minutes });
 
       return {
+        id,
         name,
         type,
         startDate: set(date, { hours, minutes }),

@@ -1,11 +1,16 @@
 <script lang="ts">
   import { format, formatDistanceToNowStrict } from "date-fns";
-  import type { Act } from "$lib/models/stage";
+  import type { Act, Stage } from "$lib/models/stage";
 
   let {
     act,
+    stage,
     timeDisplay = "absolute",
-  }: { act: Act; timeDisplay?: "relative" | "absolute" } = $props();
+  }: {
+    act: Act;
+    stage?: Stage;
+    timeDisplay?: "relative" | "absolute";
+  } = $props();
 </script>
 
 {#if timeDisplay === "absolute"}
@@ -18,4 +23,7 @@
     addSuffix: true,
     unit: "minute",
   })}
+{/if}
+{#if stage}
+  at {stage.icon} {stage.name}
 {/if}

@@ -18,3 +18,7 @@
     {/each}
   </ol>
 {/if}
+
+<p class="text-sm text-zinc-400">
+  Douple tap an act to add it to your favourites.
+</p>
