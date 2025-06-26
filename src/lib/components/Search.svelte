@@ -44,7 +44,7 @@
 {#if searchResults.length > 0}
   <ol class="mt-2">
     {#each searchResults as { act, stage }}
-      <ActListItem {act} {stage}></ActListItem>
+      <ActListItem {act} {stage} showFavourite={true}></ActListItem>
     {/each}
   </ol>
 {/if}

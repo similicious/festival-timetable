@@ -47,6 +47,6 @@
 <ol>
   {#each stageDay.acts as act}
     {@const isActive = isActActive(act)}
-    <ActListItem {act} {isActive}></ActListItem>
+    <ActListItem {act} {isActive} showFavourite={true}></ActListItem>
   {/each}
 </ol>
