@@ -2,21 +2,14 @@
   import type { Stage } from "$lib/models/stage";
   import { favouriteActIds } from "$lib/stores/favourite-act-ids";
   import { format, formatISO, parseISO, startOfDay } from "date-fns";
-  import Act from "./Act.svelte";
   import groupBy from "lodash-es/groupBy";
+  import { getFlatActsAndStages } from "$lib/utils/get-acts-by-stage";
+  import ActListItem from "./ActListItem.svelte";
 
   let { stages }: { stages: Stage[] } = $props();
 
   const favouritesActs = $derived(
-    stages
-      .flatMap((stage) =>
-        stage.days
-          .flatMap((day) => day.acts)
-          .map((act) => ({
-            act: act,
-            stage,
-          })),
-      )
+    getFlatActsAndStages(stages)
       .filter(({ act }) => $favouriteActIds.includes(act.id))
       .sort(
         ({ act: a }, { act: b }) =>
@@ -35,13 +28,13 @@
 
 {#if favouritesActs.length > 0}
   {#each favouriteActsByDay as [day, acts]}
-    <h2 class="mb-2 text-xl font-bold text-pink-300">
+    <h2 class="mb-2 text-2xl font-bold text-pink-300">
       {format(parseISO(day), "EEEE, dd. MMMM")}
     </h2>
 
     <ol class="mb-4">
       {#each acts as { act, stage }}
-        <li class="py-1"><Act {act} {stage}></Act></li>
+        <ActListItem {act} {stage}></ActListItem>
       {/each}
     </ol>
   {/each}
