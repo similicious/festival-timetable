@@ -18,7 +18,7 @@ export default defineConfig({
         start_url: "/",
         name: "Festival Timetable App",
         short_name: "Timetable",
-        theme_color: "#f6339a",
+        theme_color: "##3f3f47",
         background_color: "#2a2627",
         icons: [
           {
