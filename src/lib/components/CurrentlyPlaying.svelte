@@ -1,12 +1,16 @@
 <script lang="ts">
   import type { Stage } from "$lib/models/stage";
   import { isActActive } from "$lib/utils/is-act-active";
+  import { currentTime } from "$lib/stores/current-time";
   import Act from "./Act.svelte";
 
   let { stages }: { stages: Stage[] } = $props();
 
   let activeActsByStages = $derived(
     stages.map((stage) => {
+      // Force reactivity by referencing the store value
+      $currentTime;
+
       const stageActs = stage.days.flatMap((item) => item.acts);
 
       const activeActIndex = stageActs.findIndex((act) => isActActive(act));
@@ -21,6 +25,7 @@
   );
 </script>
 
+<h2 class="mb-2 text-2xl font-bold text-pink-300">Now playing</h2>
 <ol>
   {#each activeActsByStages as stage}
     <li class="mb-4">
