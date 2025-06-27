@@ -6,7 +6,7 @@ You can **add this website to your homescreen**. The website will then become av
 
 ## Share
 
-<img src="/qr-code.svg" alt="QR Code containing a link to this app" class="w-full h-auto mb-0 max-w-128 p-5">
+<img src="/qr-code.svg" alt="QR Code containing a link to this app" class="w-full h-auto mb-0 p-5">
 
 ## Made with ❤️ by similicious
 
@@ -14,4 +14,4 @@ Hi, I'm <a href="https://github.com/similicious" target="_blank">similicious</a>
 
 ## Credits
 
-The App logo is created by <a href="https://www.flaticon.com/free-icons/disco-ball" target="_blank" title="disco ball icons">Ehtisham Abid - Flaticon</a>. Thank you! 💃
+The app logo is created by <a href="https://www.flaticon.com/free-icons/disco-ball" target="_blank" title="disco ball icons">Ehtisham Abid - Flaticon</a>. Thank you! 💃
