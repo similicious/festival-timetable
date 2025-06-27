@@ -4,8 +4,14 @@ import { defineConfig } from "vite";
 import { visualizer } from "rollup-plugin-visualizer";
 import devtoolsJson from "vite-plugin-devtools-json";
 import { SvelteKitPWA } from "@vite-pwa/sveltekit";
+import { execSync } from "node:child_process";
+
+const commitHash = execSync("git rev-parse --short HEAD").toString();
 
 export default defineConfig({
+  define: {
+    __COMMIT_HASH__: JSON.stringify(commitHash),
+  },
   plugins: [
     devtoolsJson(),
     tailwindcss(),

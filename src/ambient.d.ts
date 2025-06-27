@@ -5,3 +5,5 @@ declare module "*.md" {
 
   export const metadata: Record<string, unknown>;
 }
+
+declare const __COMMIT_HASH__: string;

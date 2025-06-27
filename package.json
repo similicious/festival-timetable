@@ -38,6 +38,7 @@
   "packageManager": "yarn@4.9.1",
   "dependencies": {
     "@sveltia/cms": "^0.81.0",
+    "@types/node": "22",
     "date-fns": "^4.1.0",
     "lodash-es": "^4.17.21",
     "svelte-persisted-store": "^0.12.0",
