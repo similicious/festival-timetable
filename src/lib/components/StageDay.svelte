@@ -7,10 +7,6 @@
 
   let { stageDay }: { stageDay: StageDay } = $props();
 
-  // Make currentDate reactive
-  let currentDate = $state(new Date());
-  let intervalId: number;
-
   function scrollActiveActIntoView() {
     const activeActElement = document.querySelector("[data-act-active]");
     if (activeActElement) {
@@ -20,18 +16,6 @@
 
   onMount(() => {
     scrollActiveActIntoView();
-
-    intervalId = setInterval(() => {
-      currentDate = new Date();
-
-      setTimeout(scrollActiveActIntoView, 0);
-    }, 60 * 1000);
-  });
-
-  onDestroy(() => {
-    if (intervalId) {
-      clearInterval(intervalId);
-    }
   });
 
   // Use $effect to run scrollActiveActIntoView whenever stageDay changes
