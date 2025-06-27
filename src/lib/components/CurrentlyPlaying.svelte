@@ -14,8 +14,8 @@
       return {
         name: stage.name,
         icon: stage.icon,
-        activeAct: stageActs.at(activeActIndex),
-        nextAct: stageActs.at(activeActIndex + 1),
+        activeAct: stageActs[activeActIndex],
+        nextAct: stageActs[activeActIndex + 1],
       };
     }),
   );
