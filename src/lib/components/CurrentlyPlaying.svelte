@@ -3,6 +3,7 @@
   import { isActActive } from "$lib/utils/is-act-active";
   import { currentTime } from "$lib/stores/current-time";
   import Act from "./Act.svelte";
+  import { isAfter, isBefore } from "date-fns";
 
   let { stages }: { stages: Stage[] } = $props();
 
@@ -13,13 +14,18 @@
 
       const stageActs = stage.days.flatMap((item) => item.acts);
 
-      const activeActIndex = stageActs.findIndex((act) => isActActive(act));
+      const activeAct = stageActs.find((act) => isActActive(act));
+
+      // The list is sorted already
+      const nextAct = stageActs.find((act) =>
+        isAfter(act.startDate, new Date()),
+      );
 
       return {
         name: stage.name,
         icon: stage.icon,
-        activeAct: stageActs[activeActIndex],
-        nextAct: stageActs[activeActIndex + 1],
+        activeAct: activeAct,
+        nextAct: nextAct,
       };
     }),
   );
