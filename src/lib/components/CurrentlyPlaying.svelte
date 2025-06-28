@@ -41,7 +41,7 @@
           <Act act={stage.activeAct}></Act>
         </p>
       {:else}
-        closed ❌
+        currently closed ❌
       {/if}
       {#if stage.nextAct}
         <p class="text-sm text-zinc-400">
