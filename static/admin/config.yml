@@ -5,6 +5,7 @@ public_folder: "src/assets/images" # The src attribute for uploaded media
 backend:
   name: github
   repo: similicious/festival-timetable
+  base_url: https://decap-cms-github-backend.smlcs.de
   # site_domain: antoniaparr.com
   commit_messages:
     create: "content: create {{collection}} “{{slug}}”"
