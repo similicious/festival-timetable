@@ -5,7 +5,8 @@ public_folder: "src/assets/images" # The src attribute for uploaded media
 backend:
   name: github
   repo: similicious/festival-timetable
-  # site_domain: antoniaparr.com
+  base_url: https://sveltia-cms-auth.cloudflare-com-a47.workers.dev/
+  site_domain: cosy.tmtbl.de
   commit_messages:
     create: "content: create {{collection}} “{{slug}}”"
     update: "content: update {{collection}} “{{slug}}”"
