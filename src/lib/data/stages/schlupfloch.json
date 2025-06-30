@@ -229,13 +229,6 @@
           "type": "dj",
           "time": "03:30",
           "duration": 120
-        },
-        {
-          "id": "a2c4c7e3",
-          "name": "test5",
-          "type": "dj",
-          "time": "05:30",
-          "duration": 120
         }
       ]
     }
