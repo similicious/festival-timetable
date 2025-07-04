@@ -3,8 +3,6 @@ import { add, set } from "date-fns";
 import { getActIcon } from "../utils/get-act-icon";
 import { z } from "zod";
 import { createSlug } from "../utils/create-slug";
-import { PUBLIC_DEMO_MODE } from "$env/static/public";
-import { addDays } from "date-fns";
 
 const actTypeSchema = z.enum([
   "dj",
@@ -35,6 +33,7 @@ const actSchema = z
         startDate: set(date, { hours, minutes }),
         endDate: add(startDate, { minutes: duration }),
         icon: getActIcon(type),
+        duration,
       };
     };
   });
@@ -45,10 +44,7 @@ const daySchema = z.object({
 });
 
 const daysSchema = z.array(daySchema).transform((days) =>
-  days.map(({ date, acts }, index) => {
-    // If the demo mode is active, pretend the festival is currently running
-    date = PUBLIC_DEMO_MODE === "on" ? addDays(new Date(), index - 1) : date;
-
+  days.map(({ date, acts }) => {
     const transformedActs = acts
       .map((actTransform) => actTransform(date))
       .sort((a, b) => a.startDate.valueOf() - b.startDate.valueOf());

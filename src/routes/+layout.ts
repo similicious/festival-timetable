@@ -1,14 +1,12 @@
-import { stageSchema } from "$lib/models/stage";
+import { PUBLIC_DEMO_MODE } from "$env/static/public";
+import { overrideDatesForDemoMode } from "$lib/utils/override-dates-for-demo-mode";
 import type { LayoutLoad } from "./$types";
 
-export const prerender = true;
-
-export const load: LayoutLoad = async () => {
-  const stages = Object.values(
-    import.meta.glob("$lib/data/stages/*.json", { eager: true }),
-  ) as any[];
-
+export const load: LayoutLoad = async ({ data }) => {
   return {
-    stages: stages.map((stage) => stageSchema.parse(stage)),
+    stages:
+      PUBLIC_DEMO_MODE === "on"
+        ? overrideDatesForDemoMode(data.stages)
+        : data.stages,
   };
 };
