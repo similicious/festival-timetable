@@ -7,17 +7,21 @@
   const navigationItems = getNavigation(stages);
 </script>
 
-<ul class="text-4xl">
+<ul class="h-full overflow-y-auto text-4xl">
   {#each navigationItems as item}
-    <li title={item.name}>
-      <a
-        class={[
-          "block rounded-l-lg  py-4 text-center",
-          page.url.pathname === item.path && "bg-zinc-800",
-        ]}
-        href={item.path}
-      >
+    {@const isCurrentPage = page.url.pathname === item.path}
+    <li
+      title={item.name}
+      class={[
+        "block rounded-l-lg py-3 text-center",
+        isCurrentPage && "bg-zinc-800",
+      ]}
+    >
+      <a href={item.path} class="block px-1">
         {item.icon}
+        <div class={["mt-1 w-full truncate text-xs "]}>
+          {item.name}
+        </div>
       </a>
     </li>
   {/each}
