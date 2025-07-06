@@ -2,6 +2,7 @@
   import type { PageProps } from "./$types";
   import { page } from "$app/state";
   import StageDay from "$lib/components/StageDay.svelte";
+  import { attachScrollActiveActIntoView } from "$lib/utils/scroll-active-act-into-view";
   let { data }: PageProps = $props();
 
   let stage = $derived(
@@ -10,7 +11,7 @@
 </script>
 
 {#if stage}
-  <ol>
+  <ol {@attach attachScrollActiveActIntoView(stage)}>
     {#each stage.days as stageDay}
       <li class="mb-4">
         <StageDay {stageDay} />

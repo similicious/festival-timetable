@@ -5,6 +5,8 @@
   import groupBy from "lodash-es/groupBy";
   import { getFlatActsAndStages } from "$lib/utils/get-acts-by-stage";
   import ActListItem from "./ActListItem.svelte";
+  import { isActActive } from "$lib/utils/is-act-active";
+  import { attachScrollActiveActIntoView } from "$lib/utils/scroll-active-act-into-view";
 
   let { stages }: { stages: Stage[] } = $props();
 
@@ -32,9 +34,12 @@
       {format(parseISO(day), "EEEE, dd. MMMM")}
     </h2>
 
-    <ol class="mb-4">
+    <ol
+      class="mb-4"
+      {@attach attachScrollActiveActIntoView(favouriteActsByDay)}
+    >
       {#each acts as { act, stage }}
-        <ActListItem {act} {stage}></ActListItem>
+        <ActListItem {act} {stage} isActive={isActActive(act)}></ActListItem>
       {/each}
     </ol>
   {/each}
