@@ -55,9 +55,9 @@ export default defineConfig({
         skipWaiting: true,
       },
     }),
-    visualizer({
-      emitFile: true,
-      filename: "stats.html",
-    }),
+    // visualizer({
+    //   emitFile: true,
+    //   filename: "stats.html",
+    // }),
   ],
 });
