@@ -3,7 +3,7 @@
   import { isActActive } from "$lib/utils/is-act-active";
   import { currentTime } from "$lib/stores/current-time";
   import Act from "./Act.svelte";
-  import { isAfter, isBefore } from "date-fns";
+  import { isAfter } from "date-fns";
 
   let { stages }: { stages: Stage[] } = $props();
 
@@ -37,16 +37,24 @@
     <li class="mb-4">
       <h2 class="text-xl font-bold">{stage.icon} {stage.name}</h2>
       {#if stage.activeAct}
-        <p>
-          <Act act={stage.activeAct}></Act>
-        </p>
+        <Act
+          act={stage.activeAct}
+          showFavourite={true}
+          showActive={false}
+          timeDisplay={"absolute"}
+        ></Act>
       {:else}
         currently closed ❌
       {/if}
       {#if stage.nextAct}
-        <p class="text-sm text-zinc-400">
-          <Act act={stage.nextAct} timeDisplay={"relative"}></Act>
-        </p>
+        <div class="-mt-1 text-sm text-zinc-400">
+          <Act
+            act={stage.nextAct}
+            timeDisplay={"relative"}
+            showActive={false}
+            showFavourite={true}
+          ></Act>
+        </div>
       {/if}
     </li>
   {/each}

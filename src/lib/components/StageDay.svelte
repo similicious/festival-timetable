@@ -1,8 +1,7 @@
 <script lang="ts">
   import { format } from "date-fns";
   import type { StageDay } from "$lib/models/stage";
-  import { isActActive } from "$lib/utils/is-act-active";
-  import ActListItem from "./ActListItem.svelte";
+  import Act from "./Act.svelte";
 
   let { stageDay }: { stageDay: StageDay } = $props();
 </script>
@@ -12,7 +11,9 @@
 </h2>
 <ol>
   {#each stageDay.acts as act}
-    {@const isActive = isActActive(act)}
-    <ActListItem {act} {isActive} showFavourite={true}></ActListItem>
+    <li>
+      <Act {act} showActive={true} showFavourite={true} timeDisplay={"absolute"}
+      ></Act>
+    </li>
   {/each}
 </ol>

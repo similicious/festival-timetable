@@ -11,7 +11,7 @@ function createCurrentTimeStore() {
 
     interval = setInterval(() => {
       set(new Date());
-    }, 1000);
+    }, 1000) as any as number;
   }
 
   return {

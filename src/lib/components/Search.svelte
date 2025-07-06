@@ -2,7 +2,7 @@
   import type { Stage } from "$lib/models/stage";
   import { getFlatActsAndStages } from "$lib/utils/get-acts-by-stage";
   import deburr from "lodash-es/deburr";
-  import ActListItem from "./ActListItem.svelte";
+  import Act from "./Act.svelte";
 
   let {
     stages,
@@ -44,7 +44,15 @@
 {#if searchResults.length > 0}
   <ol class="mt-2">
     {#each searchResults as { act, stage }}
-      <ActListItem {act} {stage} showFavourite={true}></ActListItem>
+      <li>
+        <Act
+          {act}
+          {stage}
+          showActive={true}
+          showFavourite={true}
+          timeDisplay={"absolute"}
+        ></Act>
+      </li>
     {/each}
   </ol>
 {/if}
