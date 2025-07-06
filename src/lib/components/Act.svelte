@@ -3,6 +3,7 @@
   import type { Act, Stage } from "$lib/models/stage";
   import { favouriteActIds } from "$lib/stores/favourite-act-ids";
   import { isActActive } from "$lib/utils/is-act-active";
+  import { currentTime } from "$lib/stores/current-time";
 
   let {
     act,
@@ -19,7 +20,7 @@
   } = $props();
 
   const isFavourite = $derived($favouriteActIds.includes(act.id));
-  const isActive = $derived(isActActive(act));
+  const isActive = $derived(currentTime && isActActive(act));
 
   function toggleFavourite(act: Act) {
     if (!showFavourite) {
