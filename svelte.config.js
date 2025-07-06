@@ -11,7 +11,7 @@ const config = {
       extensions: [".md"],
     }),
   ],
-  kit: { adapter: adapter() },
+  kit: { adapter: adapter({ fallback: "index.html" }) },
 };
 
 export default config;

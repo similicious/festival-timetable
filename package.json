@@ -11,7 +11,8 @@
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "format": "prettier --write .",
-    "lint": "prettier --check ."
+    "lint": "prettier --check .",
+    "serve-spa": "http-server -c0 ./build --proxy 'http://localhost:8080?'"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.8",

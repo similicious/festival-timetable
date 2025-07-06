@@ -20,6 +20,10 @@ export default defineConfig({
       registerType: "autoUpdate",
       injectRegister: "script",
       base: "/",
+      kit: {
+        adapterFallback: "index.html",
+        spa: true,
+      },
       manifest: {
         start_url: "/",
         name: "Festival Timetable App",
