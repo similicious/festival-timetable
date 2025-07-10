@@ -50,7 +50,7 @@
           {stage}
           showActive={true}
           showFavourite={true}
-          timeDisplay={"absolute"}
+          timeDisplay={"absoluteLong"}
         ></Act>
       </li>
     {/each}

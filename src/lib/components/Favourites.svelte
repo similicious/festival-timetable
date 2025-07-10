@@ -30,7 +30,7 @@
 
 {#if favouritesActs.length > 0}
   {#each favouriteActsByDay as [day, acts]}
-    <h2 class="mb-2 text-2xl font-bold text-pink-300">
+    <h2 class="mb-2 text-xl font-bold text-pink-300">
       {format(parseISO(day), "EEEE, dd. MMMM")}
     </h2>
 

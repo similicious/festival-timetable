@@ -14,7 +14,7 @@
   }: {
     act: Act;
     stage?: Stage;
-    timeDisplay: "relative" | "absolute";
+    timeDisplay: "relative" | "absolute" | "absoluteLong";
     showFavourite: boolean;
     showActive: boolean;
   } = $props();
@@ -53,6 +53,9 @@
 >
   {#if timeDisplay === "absolute"}
     {format(act.startDate, "HH:mm")}
+  {/if}
+  {#if timeDisplay === "absoluteLong"}
+    {format(act.startDate, "EEEE, HH:mm")}
   {/if}
   {act.icon}
   {act.name}

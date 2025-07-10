@@ -31,7 +31,6 @@
   );
 </script>
 
-<h2 class="mb-2 text-2xl font-bold text-pink-300">Now playing</h2>
 <ol>
   {#each activeActsByStages as stage}
     <li class="mb-4">

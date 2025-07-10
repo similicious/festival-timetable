@@ -6,7 +6,7 @@
   let { stageDay }: { stageDay: StageDay } = $props();
 </script>
 
-<h2 class="mb-2 text-2xl font-bold text-pink-300">
+<h2 class="mb-2 text-xl font-bold text-pink-300">
   {format(stageDay.date, "EEEE, dd. MMMM")}
 </h2>
 <ol>
