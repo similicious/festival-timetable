@@ -1,0 +1,72 @@
+{
+  "name": "Tag & Nacht",
+  "icon": "☀️",
+  "days": [
+    {
+      "date": "2025-07-11",
+      "acts": [
+        {
+          "id": "2cc15cb0",
+          "name": "SiMa",
+          "type": "dj",
+          "time": "16:30",
+          "duration": 120
+        },
+        {
+          "id": "456cd142",
+          "name": "Sinamin",
+          "type": "dj",
+          "time": "18:30",
+          "duration": 120
+        },
+        {
+          "id": "eb0da734",
+          "name": "Dorian Fecht",
+          "type": "dj",
+          "time": "20:30",
+          "duration": 120
+        },
+        {
+          "id": "85dece42",
+          "name": "Sarah Wild",
+          "type": "dj",
+          "time": "22:30",
+          "duration": 120
+        }
+      ]
+    },
+    {
+      "date": "2025-07-11",
+      "acts": [
+        {
+          "id": "855af385",
+          "name": "Susi & Paula",
+          "type": "dj",
+          "time": "00:30",
+          "duration": 120
+        },
+        {
+          "id": "d1c65d70",
+          "name": "HOVR",
+          "type": "dj",
+          "time": "02:30",
+          "duration": 120
+        },
+        {
+          "id": "a88692dd",
+          "name": "Aliska & Moody",
+          "type": "dj",
+          "time": "04:30",
+          "duration": 120
+        },
+        {
+          "id": "c284b248",
+          "name": "Superlena",
+          "type": "dj",
+          "time": "06:30",
+          "duration": 120
+        }
+      ]
+    }
+  ]
+}
