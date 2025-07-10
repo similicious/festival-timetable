@@ -1,0 +1,58 @@
+{
+  "name": "Ewig & Vergangen",
+  "icon": "🔮",
+  "days": [
+    {
+      "date": "2025-07-10",
+      "acts": [
+        {
+          "id": "19fdde5d",
+          "name": "Solunar Sunchild",
+          "type": "dj",
+          "time": "18:00",
+          "duration": 90
+        },
+        {
+          "id": "bfb8f7f2",
+          "name": "Marcelito",
+          "type": "dj",
+          "time": "19:30",
+          "duration": 90
+        },
+        {
+          "id": "6b829487",
+          "name": "Manú",
+          "type": "dj",
+          "time": "21:00",
+          "duration": 90
+        },
+        {
+          "id": "3f22c288",
+          "name": "Mané",
+          "type": "dj",
+          "time": "22:30",
+          "duration": 90
+        }
+      ]
+    },
+    {
+      "date": "2025-07-11",
+      "acts": [
+        {
+          "id": "15e2b2ff",
+          "name": "Jule Rainbow",
+          "type": "dj",
+          "time": "01:30",
+          "duration": 120
+        },
+        {
+          "id": "4ffd604c",
+          "name": "SOWL.XYZ",
+          "type": "dj",
+          "time": "01:30",
+          "duration": 90
+        }
+      ]
+    }
+  ]
+}
