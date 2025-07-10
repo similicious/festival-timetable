@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { format, formatDistanceToNowStrict } from "date-fns";
+  import { format, formatDistanceToNow } from "date-fns";
   import type { Act, Stage } from "$lib/models/stage";
   import { favouriteActIds } from "$lib/stores/favourite-act-ids";
   import { isActActive } from "$lib/utils/is-act-active";
@@ -57,10 +57,7 @@
   {act.icon}
   {act.name}
   {#if timeDisplay === "relative"}
-    {formatDistanceToNowStrict(act.startDate, {
-      addSuffix: true,
-      unit: "minute",
-    })}
+    {formatDistanceToNow(act.startDate, { addSuffix: true })}
   {/if}
   {#if stage}
     at {stage.icon} {stage.name}
