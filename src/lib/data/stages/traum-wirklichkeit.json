@@ -55,6 +55,114 @@
           "duration": 60
         }
       ]
+    },
+    {
+      "date": "2025-07-12",
+      "acts": [
+        {
+          "id": "48d68476",
+          "name": "maaje",
+          "type": "dj",
+          "time": "11:00",
+          "duration": 120
+        },
+        {
+          "id": "3c85b2da",
+          "name": "Pulli",
+          "type": "dj",
+          "time": "13:00",
+          "duration": 120
+        },
+        {
+          "id": "d99f2c34",
+          "name": "Kahl & Kæmena (live)",
+          "type": "dj",
+          "time": "15:00",
+          "duration": 120
+        },
+        {
+          "id": "dea14a65",
+          "name": "Überhaupt & Außerdem",
+          "type": "dj",
+          "time": "17:00",
+          "duration": 120
+        },
+        {
+          "id": "52031e55",
+          "name": "thea & schtu (live)",
+          "type": "dj",
+          "time": "19:00",
+          "duration": 90
+        },
+        {
+          "id": "32356a6a",
+          "name": "Kon Faber (live)",
+          "type": "dj",
+          "time": "20:30",
+          "duration": 90
+        },
+        {
+          "id": "068ff841",
+          "name": "Temple Tears",
+          "type": "dj",
+          "time": "22:00",
+          "duration": 120
+        }
+      ]
+    },
+    {
+      "date": "2025-07-13",
+      "acts": [
+        {
+          "id": "c9b8c4ec",
+          "name": "diladï",
+          "type": "dj",
+          "time": "10:00",
+          "duration": 120
+        },
+        {
+          "id": "a876a0a5",
+          "name": "Hop'n Honey",
+          "type": "dj",
+          "time": "12:00",
+          "duration": 120
+        },
+        {
+          "id": "34271dc0",
+          "name": "JPATTERSSON (live)",
+          "type": "dj",
+          "time": "14:00",
+          "duration": 60
+        },
+        {
+          "id": "98083c29",
+          "name": "Deep Ändi (live)",
+          "type": "dj",
+          "time": "15:00",
+          "duration": 90
+        },
+        {
+          "id": "1faac975",
+          "name": "Horst Haller",
+          "type": "dj",
+          "time": "16:30",
+          "duration": 120
+        },
+        {
+          "id": "52c5601c",
+          "name": "Sahra Bass",
+          "type": "dj",
+          "time": "18:30",
+          "duration": 120
+        },
+        {
+          "id": "6293f695",
+          "name": "Iorie (live)",
+          "type": "dj",
+          "time": "20:30",
+          "duration": 90
+        }
+      ]
     }
   ]
 }

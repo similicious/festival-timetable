@@ -51,6 +51,100 @@
           "type": "dj",
           "time": "01:30",
           "duration": 90
+        },
+        {
+          "id": "615a1699",
+          "name": "Papu",
+          "type": "dj",
+          "time": "22:00",
+          "duration": 90
+        },
+        {
+          "id": "b537a5db",
+          "name": "Gewagt & Magßgeschneidert b2b D/Baker",
+          "type": "dj",
+          "time": "23:30",
+          "duration": 120
+        }
+      ]
+    },
+    {
+      "date": "2025-07-12",
+      "acts": [
+        {
+          "id": "bf24e055",
+          "name": "Case Chamber",
+          "type": "dj",
+          "time": "01:30",
+          "duration": 90
+        },
+        {
+          "id": "62c6d9ff",
+          "name": "Butz²",
+          "type": "dj",
+          "time": "03:00",
+          "duration": 120
+        },
+        {
+          "id": "8be2acab",
+          "name": "Peter Pivo",
+          "type": "dj",
+          "time": "05:00",
+          "duration": 120
+        },
+        {
+          "id": "62fef5f5",
+          "name": "Tons Tumble",
+          "type": "dj",
+          "time": "22:30",
+          "duration": 90
+        }
+      ]
+    },
+    {
+      "date": "2025-07-13",
+      "acts": [
+        {
+          "id": "034dd3d3",
+          "name": "M!A",
+          "type": "dj",
+          "time": "00:00",
+          "duration": 90
+        },
+        {
+          "id": "12458ec7",
+          "name": "OhOhOuzo b2b Kataya",
+          "type": "dj",
+          "time": "01:30",
+          "duration": 120
+        },
+        {
+          "id": "4753577e",
+          "name": "Herbes Brett",
+          "type": "dj",
+          "time": "03:30",
+          "duration": 90
+        },
+        {
+          "id": "805b9f00",
+          "name": "Curly Crash",
+          "type": "dj",
+          "time": "05:00",
+          "duration": 90
+        },
+        {
+          "id": "e88070ad",
+          "name": "jesse.eggert",
+          "type": "dj",
+          "time": "20:00",
+          "duration": 120
+        },
+        {
+          "id": "9ab86e8d",
+          "name": "Antaares (live)",
+          "type": "dj",
+          "time": "22:00",
+          "duration": 120
         }
       ]
     }

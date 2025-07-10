@@ -6,35 +6,35 @@
       "date": "2025-07-11",
       "acts": [
         {
-          "id": "eecc30d5",
+          "id": "caa753bc",
           "name": "Alice Hills (live)",
           "type": "dj",
           "time": "14:00",
           "duration": 60
         },
         {
-          "id": "d466ea3f",
+          "id": "a94cb8b6",
           "name": "KA:MA (live)",
           "type": "dj",
           "time": "15:30",
           "duration": 120
         },
         {
-          "id": "424a3076",
+          "id": "917c8e72",
           "name": "Federhall (live)",
           "type": "dj",
           "time": "18:00",
           "duration": 60
         },
         {
-          "id": "de15aaaa",
-          "name": "Calaido (live)",
+          "id": "db918200",
+          "name": "Calaido (live8adfa6e6",
           "type": "dj",
           "time": "19:30",
           "duration": 60
         },
         {
-          "id": "3ac59ca5",
+          "id": "f54f8d54",
           "name": "Ausklang (live)",
           "type": "dj",
           "time": "21:30",
@@ -46,11 +46,114 @@
       "date": "2025-07-12",
       "acts": [
         {
-          "id": "6b4ecc56",
+          "id": "511fe7fe",
           "name": "DJOJO",
           "type": "dj",
           "time": "00:00",
           "duration": 120
+        },
+        {
+          "id": "92febde8",
+          "name": "Sekt am Samstag",
+          "type": "dj",
+          "time": "13:00",
+          "duration": 240
+        },
+        {
+          "id": "c602e635",
+          "name": "Jessovski (live)",
+          "type": "dj",
+          "time": "16:00",
+          "duration": 60
+        },
+        {
+          "id": "8a054369",
+          "name": "Handpan (Tontropfen) live am See",
+          "type": "dj",
+          "time": "17:00",
+          "duration": 60
+        },
+        {
+          "id": "4acb8c13",
+          "name": "Banana Dolphin (live am See)",
+          "type": "dj",
+          "time": "18:00",
+          "duration": 60
+        },
+        {
+          "id": "49940d6c",
+          "name": "JEES! (live)",
+          "type": "dj",
+          "time": "19:00",
+          "duration": 60
+        },
+        {
+          "id": "7d34a153",
+          "name": "Wearemarvin (live)",
+          "type": "dj",
+          "time": "21:00",
+          "duration": 60
+        }
+      ]
+    },
+    {
+      "date": "2025-07-13",
+      "acts": [
+        {
+          "id": "501f7dc7",
+          "name": "Coco Renard",
+          "type": "dj",
+          "time": "00:00",
+          "duration": 120
+        },
+        {
+          "id": "b5d5f6a3",
+          "name": "Tontropfen (live am See)",
+          "type": "dj",
+          "time": "10:00",
+          "duration": 60
+        },
+        {
+          "id": "469ead95",
+          "name": "Electric Nipples Radioshow (live)",
+          "type": "other",
+          "time": "12:00",
+          "duration": 120
+        },
+        {
+          "id": "33d2c0b3",
+          "name": "JAM Session mit D.i.n.o. (live)",
+          "type": "other",
+          "time": "14:00",
+          "duration": 180
+        },
+        {
+          "id": "19f8d0a4",
+          "name": "Open MIC mit D.i.n.o. (live)",
+          "type": "other",
+          "time": "17:00",
+          "duration": 60
+        },
+        {
+          "id": "6b2d0ae2",
+          "name": "Sia Moan (live am See)",
+          "type": "dj",
+          "time": "18:30",
+          "duration": 60
+        },
+        {
+          "id": "e398d053",
+          "name": "Bella and the Bizarre (live)",
+          "type": "dj",
+          "time": "19:00",
+          "duration": 60
+        },
+        {
+          "id": "108ea101",
+          "name": "Saraabb (live)",
+          "type": "dj",
+          "time": "20:30",
+          "duration": 90
         }
       ]
     }
