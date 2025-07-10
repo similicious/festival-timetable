@@ -1,0 +1,46 @@
+{
+  "name": "Kreis & Kante",
+  "icon": "🔵",
+  "days": [
+    {
+      "date": "2025-07-11",
+      "acts": [
+        {
+          "id": "eecc30d5",
+          "name": "Alice Hills (live)",
+          "type": "dj",
+          "time": "14:00",
+          "duration": 60
+        },
+        {
+          "id": "d466ea3f",
+          "name": "KA:MA (live)",
+          "type": "dj",
+          "time": "15:30",
+          "duration": 120
+        },
+        {
+          "id": "424a3076",
+          "name": "Federhall (live)",
+          "type": "dj",
+          "time": "18:00",
+          "duration": 60
+        },
+        {
+          "id": "de15aaaa",
+          "name": "Calaido (live)",
+          "type": "dj",
+          "time": "19:30",
+          "duration": 60
+        },
+        {
+          "id": "3ac59ca5",
+          "name": "Ausklang (live)",
+          "type": "dj",
+          "time": "21:30",
+          "duration": 60
+        }
+      ]
+    }
+  ]
+}
