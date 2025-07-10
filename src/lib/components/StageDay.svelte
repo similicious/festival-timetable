@@ -12,8 +12,12 @@
 <ol>
   {#each stageDay.acts as act}
     <li>
-      <Act {act} showActive={true} showFavourite={true} timeDisplay={"absolute"}
-      ></Act>
+      <Act
+        {act}
+        showActive={true}
+        showFavourite={true}
+        timeDisplay={"absolute"}
+      />
     </li>
   {/each}
 </ol>

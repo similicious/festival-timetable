@@ -1,5 +1,5 @@
 <script lang="ts">
-  import "../app.css";
+  import "../../app.css";
 
   import { pwaInfo } from "virtual:pwa-info";
   import { registerSW } from "virtual:pwa-register";
@@ -34,7 +34,7 @@
 
 <main class="ml-18 max-w-128 p-4">
   <h1
-    class="fixed z-10 -mt-4 mb-4 w-full truncate bg-linear-to-b from-zinc-800 from-80% to-transparent pt-4 pr-4 pb-4 text-4xl font-bold text-pink-500"
+    class="fixed right-0 left-18 z-10 -mt-4 mb-4 truncate bg-linear-to-b from-zinc-800 from-80% to-transparent p-4 text-4xl font-bold text-pink-500"
   >
     {pageTitle}
   </h1>

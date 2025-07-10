@@ -3,6 +3,7 @@ import { stageSchema } from "$lib/models/stage";
 import { overrideDatesForDemoMode } from "$lib/utils/override-dates-for-demo-mode";
 import type { LayoutLoad } from "./$types";
 import festival from "$lib/data/festival.json";
+
 export const ssr = false;
 
 export const load: LayoutLoad = async () => {

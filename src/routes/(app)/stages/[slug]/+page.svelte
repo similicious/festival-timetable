@@ -1,8 +1,8 @@
 <script lang="ts">
-  import type { PageProps } from "./$types";
   import { page } from "$app/state";
   import StageDay from "$lib/components/StageDay.svelte";
   import { attachScrollActiveActIntoView } from "$lib/utils/scroll-active-act-into-view";
+  import type { PageProps } from "./$types";
   let { data }: PageProps = $props();
 
   let stage = $derived(
