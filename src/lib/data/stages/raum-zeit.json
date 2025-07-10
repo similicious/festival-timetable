@@ -1,0 +1,65 @@
+{
+  "name": "Raum & Zeit",
+  "icon": "⌛",
+  "days": [
+    {
+      "date": "2025-07-11",
+      "acts": [
+        {
+          "id": "f1cdf46a",
+          "name": "Annett Gapstream",
+          "type": "dj",
+          "time": "20:30",
+          "duration": 120
+        },
+        {
+          "id": "8944701e",
+          "name": "Teenage Mutants",
+          "type": "dj",
+          "time": "22:30",
+          "duration": 120
+        }
+      ]
+    },
+    {
+      "date": "2025-07-12",
+      "acts": [
+        {
+          "id": "b76eddc2",
+          "name": "Baerbel & Reznap",
+          "type": "dj",
+          "time": "00:30",
+          "duration": 120
+        },
+        {
+          "id": "c384f4f0",
+          "name": "Gizmo",
+          "type": "dj",
+          "time": "02:30",
+          "duration": 120
+        },
+        {
+          "id": "054b9891",
+          "name": "Kaffee & Asche",
+          "type": "dj",
+          "time": "04:30",
+          "duration": 120
+        },
+        {
+          "id": "c21a8920",
+          "name": "Faraz",
+          "type": "dj",
+          "time": "06:30",
+          "duration": 90
+        },
+        {
+          "id": "d041574d",
+          "name": "Ronny und sein Moped",
+          "type": "dj",
+          "time": "08:00",
+          "duration": 120
+        }
+      ]
+    }
+  ]
+}
