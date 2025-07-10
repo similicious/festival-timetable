@@ -8,32 +8,44 @@
   let { stages }: { stages: Stage[] } = $props();
 
   let activeActsByStages = $derived(
-    stages.map((stage) => {
-      // Force reactivity by referencing the store value
-      $currentTime;
+    stages
+      .map((stage) => {
+        // Force reactivity by referencing the store value
+        $currentTime;
 
-      const stageActs = stage.days.flatMap((item) => item.acts);
+        const stageActs = stage.days.flatMap((item) => item.acts);
 
-      const activeAct = stageActs.find((act) => isActActive(act));
+        const activeAct = stageActs.find((act) => isActActive(act));
 
-      // The list is sorted already
-      const nextAct = stageActs.find((act) =>
-        isAfter(act.startDate, new Date()),
-      );
+        // The list is sorted already
+        const nextAct = stageActs.find((act) =>
+          isAfter(act.startDate, new Date()),
+        );
 
-      return {
-        name: stage.name,
-        icon: stage.icon,
-        activeAct: activeAct,
-        nextAct: nextAct,
-      };
-    }),
+        return {
+          name: stage.name,
+          icon: stage.icon,
+          activeAct: activeAct,
+          nextAct: nextAct,
+        };
+      })
+      .sort((a, b) => {
+        if (a.activeAct && !b.activeAct) {
+          return -1;
+        }
+
+        if (!a.activeAct && b.activeAct) {
+          return 1;
+        }
+
+        return 0;
+      }),
   );
 </script>
 
 <ol>
   {#each activeActsByStages as stage}
-    <li class="mb-4">
+    <li class={["mb-4", !stage.activeAct && "text-zinc-400"]}>
       <h2 class="text-xl font-bold">{stage.icon} {stage.name}</h2>
       {#if stage.activeAct}
         <Act
