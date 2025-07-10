@@ -24,7 +24,6 @@
     "@vite-pwa/assets-generator": "^1.0.0",
     "@vite-pwa/sveltekit": "^1.0.0",
     "lean-qr": "^2.5.0",
-    "mdsvex": "0.12.6",
     "prettier": "^3.6.0",
     "prettier-plugin-svelte": "^3.4.0",
     "prettier-plugin-tailwindcss": "^0.6.13",

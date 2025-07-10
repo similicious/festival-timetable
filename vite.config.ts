@@ -10,7 +10,8 @@ const commitHash = execSync("git rev-parse --short HEAD").toString();
 
 export default defineConfig({
   define: {
-    __COMMIT_HASH__: JSON.stringify(commitHash),
+    BUILD_COMMIT: JSON.stringify(commitHash),
+    BUILD_DATE: JSON.stringify(new Date()),
   },
   plugins: [
     devtoolsJson(),
