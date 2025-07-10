@@ -1,12 +1,16 @@
-<script>
+<script lang="ts">
   import Prose from "$lib/components/Prose.svelte";
+  import type { PageProps } from "../$types";
+
+  let { data }: PageProps = $props();
 </script>
 
 <Prose>
   <p>
-    This is an unofficial <b>timetable app</b> for <b>CoSy Festival 2025</b>.
-    I'm not affiliated with the festival but I wanted to contribute something
-    useful! If you found an error in the timetable, <b>let me know via</b>
+    This is an unofficial <b>timetable app</b> for
+    <b>{data.festival.name} {data.festival.year}</b>. I'm not affiliated with
+    the festival but I wanted to contribute something useful! If you found an
+    error in the timetable, <b>let me know via</b>
     <a href="https://t.me/similicious" target="_blank">Telegram</a>!
   </p>
 

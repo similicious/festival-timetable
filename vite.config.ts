@@ -5,6 +5,7 @@ import { visualizer } from "rollup-plugin-visualizer";
 import devtoolsJson from "vite-plugin-devtools-json";
 import { SvelteKitPWA } from "@vite-pwa/sveltekit";
 import { execSync } from "node:child_process";
+import festival from "./src/lib/data/festival.json";
 
 const commitHash = execSync("git rev-parse --short HEAD").toString();
 
@@ -27,8 +28,8 @@ export default defineConfig({
       },
       manifest: {
         start_url: "/",
-        name: "Festival Timetable App",
-        short_name: "Timetable",
+        name: `${festival.name} Timetable`,
+        short_name: `${festival.name}`,
         theme_color: "#3f3f47",
         background_color: "#2a2627",
         icons: [

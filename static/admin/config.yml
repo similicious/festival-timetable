@@ -88,11 +88,11 @@ collections:
     files:
       - label: "Festival"
         name: "festival"
-        file: "src/lib/data/festival.md"
+        file: "src/lib/data/festival.json"
         fields:
           - label: "Name"
             name: "name"
             widget: "string"
-          - label: Content
-            name: body
-            widget: markdown
+          - label: "Year"
+            name: "year"
+            widget: "number"

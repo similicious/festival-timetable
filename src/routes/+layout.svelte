@@ -25,6 +25,7 @@
 
 <svelte:head>
   {@html webManifestLink}
+  <title>{data.festival.name} | {navigationItem?.name}</title>
 </svelte:head>
 
 <nav class="fixed top-0 bottom-0 left-0 w-18 bg-zinc-700 pl-1">
