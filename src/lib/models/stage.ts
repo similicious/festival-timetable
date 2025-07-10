@@ -61,6 +61,7 @@ export const stageSchema = z
     name: z.string(),
     icon: z.string(),
     days: daysSchema,
+    id: z.string(),
   })
   .transform((stage) => ({
     ...stage,

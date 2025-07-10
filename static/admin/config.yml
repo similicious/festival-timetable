@@ -26,6 +26,9 @@ collections:
     identifier_field: "name"
     slug: "{{name}}"
     fields:
+      - name: "id"
+        widget: "hidden"
+        default: "{{uuid_shorter}}"
       - label: "Name"
         name: "name"
         widget: "string"
@@ -96,3 +99,12 @@ collections:
           - label: "Year"
             name: "year"
             widget: "number"
+          - label: "Stage order"
+            required: false
+            name: "stage_order"
+            multiple: true
+            widget: "relation"
+            collection: "stages"
+            search_fields: ["name"]
+            value_field: "id"
+            display_fields: ["icon", "name"]

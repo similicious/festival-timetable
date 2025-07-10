@@ -1,6 +1,5 @@
 import type { NavigationItem } from "$lib/models/navigation-item";
 import type { Stage } from "$lib/models/stage";
-import { readable } from "svelte/store";
 
 export function getNavigation(stages: Stage[]) {
   const overview: NavigationItem = {

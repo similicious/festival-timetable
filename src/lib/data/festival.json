@@ -1,1 +1,12 @@
-{ "name": "CoSy Festival", "year": 2025 }
+{
+  "name": "CoSy Festival",
+  "year": 2025,
+  "stage_order": [
+    "92e12b2b",
+    "b922793d",
+    "f26ae178",
+    "5677ec8d",
+    "7303fcd4",
+    "dc253238"
+  ]
+}
