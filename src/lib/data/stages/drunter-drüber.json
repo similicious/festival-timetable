@@ -1,0 +1,53 @@
+{
+  "name": "Drunter & Drüber",
+  "icon": "↕️",
+  "days": [
+    {
+      "date": "2025-07-12",
+      "acts": [
+        {
+          "id": "bb0c6381",
+          "name": "Dr.Schneckno",
+          "type": "dj",
+          "time": "00:00",
+          "duration": 120
+        },
+        {
+          "id": "3bd5d3f7",
+          "name": "Nico Tober",
+          "type": "dj",
+          "time": "02:00",
+          "duration": 120
+        },
+        {
+          "id": "d9ee1792",
+          "name": "Glenn Shaw b2b Mira Vana",
+          "type": "dj",
+          "time": "04:00",
+          "duration": 120
+        },
+        {
+          "id": "48ce0489",
+          "name": "Schwofdrossel b2b Niklasecco",
+          "type": "dj",
+          "time": "06:00",
+          "duration": 120
+        },
+        {
+          "id": "0a43049a",
+          "name": "Kollektiv Sheesh b2b Nugi",
+          "type": "dj",
+          "time": "08:00",
+          "duration": 120
+        },
+        {
+          "id": "d5dd7a10",
+          "name": "JoaRas",
+          "type": "dj",
+          "time": "10:00",
+          "duration": 90
+        }
+      ]
+    }
+  ]
+}
