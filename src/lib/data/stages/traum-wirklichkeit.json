@@ -1,0 +1,60 @@
+{
+  "name": "Traum & Wirklichkeit",
+  "icon": "💭",
+  "days": [
+    {
+      "date": "2025-07-11",
+      "acts": [
+        {
+          "id": "597a95ab",
+          "name": "Jimm Koerk",
+          "type": "dj",
+          "time": "12:00",
+          "duration": 120
+        },
+        {
+          "id": "25436ee4",
+          "name": "Isabeau Fort",
+          "type": "dj",
+          "time": "14:00",
+          "duration": 120
+        },
+        {
+          "id": "d03d21de",
+          "name": "Planet Caravan (live)",
+          "type": "dj",
+          "time": "16:00",
+          "duration": 90
+        },
+        {
+          "id": "af9bc78b",
+          "name": "Mwaah",
+          "type": "dj",
+          "time": "17:30",
+          "duration": 90
+        },
+        {
+          "id": "ef7a71b4",
+          "name": "Mono & Kusten",
+          "type": "dj",
+          "time": "19:00",
+          "duration": 120
+        },
+        {
+          "id": "9f8e8755",
+          "name": "Just Emma",
+          "type": "dj",
+          "time": "21:00",
+          "duration": 120
+        },
+        {
+          "id": "d542c8be",
+          "name": "Flave (live)",
+          "type": "dj",
+          "time": "23:00",
+          "duration": 60
+        }
+      ]
+    }
+  ]
+}
