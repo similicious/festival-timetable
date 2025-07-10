@@ -41,6 +41,18 @@
           "duration": 60
         }
       ]
+    },
+    {
+      "date": "2025-07-12",
+      "acts": [
+        {
+          "id": "6b4ecc56",
+          "name": "DJOJO",
+          "type": "dj",
+          "time": "00:00",
+          "duration": 120
+        }
+      ]
     }
   ]
 }
