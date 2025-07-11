@@ -1,7 +1,7 @@
 {
+  "id": "b922793d",
   "name": "Kreis & Kante",
   "icon": "🔵",
-  "id": "b922793d",
   "days": [
     {
       "date": "2025-07-11",
@@ -29,7 +29,7 @@
         },
         {
           "id": "db918200",
-          "name": "Calaido (live8adfa6e6",
+          "name": "Calaido (live)",
           "type": "dj",
           "time": "19:30",
           "duration": 60
