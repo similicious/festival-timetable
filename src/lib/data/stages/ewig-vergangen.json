@@ -1,6 +1,6 @@
 {
-  "name": "Ewig & Vergangen",
   "id": "dc253238",
+  "name": "Ewig & Vergangen",
   "icon": "🔮",
   "days": [
     {
@@ -145,6 +145,18 @@
           "name": "Antaares (live)",
           "type": "dj",
           "time": "22:00",
+          "duration": 120
+        }
+      ]
+    },
+    {
+      "date": "2025-07-14",
+      "acts": [
+        {
+          "id": "8d16d79c",
+          "name": "DJOJO",
+          "type": "dj",
+          "time": "00:00",
           "duration": 120
         }
       ]
