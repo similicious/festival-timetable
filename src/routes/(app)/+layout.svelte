@@ -7,6 +7,7 @@
 
   import Navigation from "$lib/components/Navigation.svelte";
   import { getNavigation } from "$lib/utils/get-navigation";
+  import { getPageTitle } from "$lib/utils/get-page-title";
 
   const webManifestLink = $derived(pwaInfo ? pwaInfo.webManifest.linkTag : "");
 
@@ -18,14 +19,15 @@
     navigation.find((item) => item.path === page.url.pathname),
   );
 
-  let pageTitle = $derived(`${navigationItem?.icon} ${navigationItem?.name}`);
+  let pageHeading = $derived(`${navigationItem?.icon} ${navigationItem?.name}`);
+  let pageTitle = $derived(getPageTitle(navigationItem));
 
   registerSW();
 </script>
 
 <svelte:head>
   {@html webManifestLink}
-  <title>{data.festival.name} | {navigationItem?.name}</title>
+  <title>{pageTitle}</title>
 </svelte:head>
 
 <nav class="fixed top-0 bottom-0 left-0 w-18 bg-zinc-700 pl-1">
@@ -36,7 +38,7 @@
   <h1
     class="fixed right-0 left-18 z-10 -mt-4 mb-4 truncate bg-linear-to-b from-zinc-800 from-80% to-transparent p-4 text-3xl font-bold text-pink-500"
   >
-    {pageTitle}
+    {pageHeading}
   </h1>
 
   <article class="mt-11">
