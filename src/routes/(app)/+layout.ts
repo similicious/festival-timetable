@@ -1,4 +1,3 @@
-import { PUBLIC_DEMO_MODE } from "$env/static/public";
 import { stageSchema, type Stage } from "$lib/models/stage";
 import { overrideDatesForDemoMode } from "$lib/utils/override-dates-for-demo-mode";
 import type { LayoutLoad } from "./$types";
@@ -25,10 +24,9 @@ export const load: LayoutLoad = async () => {
   const data = { stages: [...orderdStages, ...nonOrderdStages] };
 
   return {
-    stages:
-      PUBLIC_DEMO_MODE === "on"
-        ? overrideDatesForDemoMode(data.stages)
-        : data.stages,
+    stages: festival.demo_mode
+      ? overrideDatesForDemoMode(data.stages)
+      : data.stages,
     festival,
   };
 };

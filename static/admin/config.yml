@@ -99,6 +99,10 @@ collections:
           - label: "Year"
             name: "year"
             widget: "number"
+          - label: "Public URL"
+            name: "public_url"
+            widget: "string"
+            hint: "The url used for QR code generation."
           - label: "Stage order"
             required: false
             name: "stage_order"
@@ -108,3 +112,7 @@ collections:
             search_fields: ["name"]
             value_field: "id"
             display_fields: ["icon", "name"]
+          - label: "Demo mode"
+            name: "demo_mode"
+            widget: "boolean"
+            hint: "If turned on, the act dates are overriden with the current date. Effectively pretends the festival is currently running. Turn off for production use!"
