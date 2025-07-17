@@ -2,6 +2,8 @@
 
 A modern, responsive web application for displaying festival timetables for small to medium-sized festivals. Built with SvelteKit and designed for easy content management and real-time updates.
 
+![Screenshot](screenshot.jpg)
+
 ## Features
 
 - **Real-time Schedule Display**: Shows currently playing acts and upcoming performances
