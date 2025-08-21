@@ -1,14 +1,7 @@
 {
-  "name": "CoSy Festival",
+  "name": "Moyn Festival",
   "year": 2025,
-  "public_url": "https://cosy.tmtbl.de",
-  "stage_order": [
-    "92e12b2b",
-    "b922793d",
-    "f26ae178",
-    "5677ec8d",
-    "7303fcd4",
-    "dc253238"
-  ],
-  "demo_mode": true
+  "public_url": "https://moyn.tmtbl.de",
+  "stage_order": [],
+  "demo_mode": false
 }
