@@ -1,0 +1,47 @@
+{
+  "id": "290db80b",
+  "name": "Speziale",
+  "icon": "⭐",
+  "days": [
+    {
+      "date": "2025-08-22",
+      "acts": [
+        {
+          "id": "b4863a34",
+          "name": "Bondi (live)",
+          "type": "dj",
+          "time": "15:00",
+          "duration": 90
+        },
+        {
+          "id": "6425c020",
+          "name": "Komfortrauschen (live)",
+          "type": "dj",
+          "time": "16:45",
+          "duration": 60
+        },
+        {
+          "id": "020c74a6",
+          "name": "Sarah Farina",
+          "type": "dj",
+          "time": "18:00",
+          "duration": 120
+        },
+        {
+          "id": "10f45e3c",
+          "name": "Caren Callas",
+          "type": "dj",
+          "time": "20:00",
+          "duration": 120
+        },
+        {
+          "id": "ab01db65",
+          "name": "Franca",
+          "type": "dj",
+          "time": "22:00",
+          "duration": 180
+        }
+      ]
+    }
+  ]
+}
