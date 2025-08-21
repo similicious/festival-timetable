@@ -2,6 +2,13 @@
   "name": "Moyn Festival",
   "year": 2025,
   "public_url": "https://moyn.tmtbl.de",
-  "stage_order": [],
+  "stage_order": [
+    "e2df3459",
+    "290db80b",
+    "6057dae7",
+    "84d8b3c1",
+    "d160495f",
+    "632ca719"
+  ],
   "demo_mode": false
 }
