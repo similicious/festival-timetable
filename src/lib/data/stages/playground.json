@@ -28,6 +28,25 @@
           "duration": 120
         }
       ]
+    },
+    {
+      "date": "2025-08-22",
+      "acts": [
+        {
+          "id": "c4055032",
+          "name": "Rikky Mandozza (hybrid)",
+          "type": "dj",
+          "time": "01:00",
+          "duration": 120
+        },
+        {
+          "id": "89bd0537",
+          "name": "Randali",
+          "type": "dj",
+          "time": "03:00",
+          "duration": 120
+        }
+      ]
     }
   ]
 }
