@@ -82,6 +82,88 @@
           "duration": 120
         }
       ]
+    },
+    {
+      "date": "2025-08-21",
+      "acts": [
+        {
+          "id": "34eb1a51",
+          "name": "Hihar + Monch MC",
+          "type": "dj",
+          "time": "01:00",
+          "duration": 120
+        },
+        {
+          "id": "0040d546",
+          "name": "Nasstya",
+          "type": "dj",
+          "time": "03:00",
+          "duration": 120
+        },
+        {
+          "id": "414ffe0b",
+          "name": "Psy Fi Soundsystem",
+          "type": "dj",
+          "time": "05:00",
+          "duration": 180
+        },
+        {
+          "id": "2228c728",
+          "name": "Rocksteady",
+          "type": "dj",
+          "time": "08:00",
+          "duration": 120
+        },
+        {
+          "id": "b90d437e",
+          "name": "Ni:vek",
+          "type": "dj",
+          "time": "10:00",
+          "duration": 120
+        },
+        {
+          "id": "c8eb4ec6",
+          "name": "Song Bingo by Kulturgarage",
+          "type": "other",
+          "time": "12:00",
+          "duration": 180
+        },
+        {
+          "id": "62051b51",
+          "name": "Gymansty Vol. 2 - Aquaerotic",
+          "type": "dj",
+          "time": "15:00",
+          "duration": 120
+        },
+        {
+          "id": "5f3e2f76",
+          "name": "Peppermintphil",
+          "type": "dj",
+          "time": "17:00",
+          "duration": 120
+        },
+        {
+          "id": "8858194f",
+          "name": "Imternetgirlfriend",
+          "type": "dj",
+          "time": "19:00",
+          "duration": 120
+        },
+        {
+          "id": "7bb42248",
+          "name": "Orbit (DJ-Set)",
+          "type": "dj",
+          "time": "21:00",
+          "duration": 120
+        },
+        {
+          "id": "851164d7",
+          "name": "Heimlich Maneuver",
+          "type": "dj",
+          "time": "23:00",
+          "duration": 120
+        }
+      ]
     }
   ]
 }
