@@ -143,6 +143,107 @@
           "duration": 120
         }
       ]
+    },
+    {
+      "date": "2025-08-24",
+      "acts": [
+        {
+          "id": "9ad58ef5",
+          "name": "Master of Recipe",
+          "type": "dj",
+          "time": "12:00",
+          "duration": 120
+        },
+        {
+          "id": "b35dfa27",
+          "name": "Neya",
+          "type": "dj",
+          "time": "02:00",
+          "duration": 120
+        },
+        {
+          "id": "461da215",
+          "name": "Chanagang",
+          "type": "dj",
+          "time": "04:00",
+          "duration": 180
+        },
+        {
+          "id": "c87c8371",
+          "name": "Devi_No",
+          "type": "dj",
+          "time": "07:00",
+          "duration": 180
+        },
+        {
+          "id": "ee197643",
+          "name": "Trashig Zoll",
+          "type": "dj",
+          "time": "10:00",
+          "duration": 180
+        },
+        {
+          "id": "d9e149d7",
+          "name": "Aerobic mit Spion Elisa",
+          "type": "dj",
+          "time": "13:00",
+          "duration": 120
+        },
+        {
+          "id": "65e6bfc4",
+          "name": "Lottaflockig",
+          "type": "dj",
+          "time": "15:00",
+          "duration": 180
+        },
+        {
+          "id": "dbd85713",
+          "name": "Totalverweigerz",
+          "type": "dj",
+          "time": "18:00",
+          "duration": 120
+        },
+        {
+          "id": "87171c8c",
+          "name": "Aaron. St",
+          "type": "dj",
+          "time": "20:00",
+          "duration": 120
+        },
+        {
+          "id": "b25017b8",
+          "name": "Bassphilia",
+          "type": "dj",
+          "time": "22:30",
+          "duration": 150
+        }
+      ]
+    },
+    {
+      "date": "2025-08-25",
+      "acts": [
+        {
+          "id": "510f4d3d",
+          "name": "Floorchoir",
+          "type": "dj",
+          "time": "00:30",
+          "duration": 30
+        },
+        {
+          "id": "89e26892",
+          "name": "Joy Boy Peng",
+          "type": "dj",
+          "time": "01:00",
+          "duration": 120
+        },
+        {
+          "id": "b85e4ac7",
+          "name": "Charley White",
+          "type": "dj",
+          "time": "03:00",
+          "duration": 120
+        }
+      ]
     }
   ]
 }
