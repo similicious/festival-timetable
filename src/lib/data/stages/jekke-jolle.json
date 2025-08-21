@@ -42,6 +42,81 @@
           "duration": 120
         }
       ]
+    },
+    {
+      "date": "2025-08-23",
+      "acts": [
+        {
+          "id": "e8a35204",
+          "name": "David Phoenix",
+          "type": "dj",
+          "time": "00:00",
+          "duration": 120
+        },
+        {
+          "id": "c94a60b6",
+          "name": "Rad.lez & Hngt",
+          "type": "dj",
+          "time": "02:00",
+          "duration": 150
+        },
+        {
+          "id": "0099a30a",
+          "name": "Konfusia & Miniyme",
+          "type": "dj",
+          "time": "04:30",
+          "duration": 150
+        },
+        {
+          "id": "cba6b0b3",
+          "name": "Inhärenz",
+          "type": "dj",
+          "time": "07:00",
+          "duration": 120
+        },
+        {
+          "id": "85633b65",
+          "name": "Jekke Jolle Showcase",
+          "type": "dj",
+          "time": "11:00",
+          "duration": 180
+        },
+        {
+          "id": "d3cdcee3",
+          "name": "JJ-Eurodanceparty",
+          "type": "dj",
+          "time": "15:00",
+          "duration": 60
+        },
+        {
+          "id": "32adb02a",
+          "name": "Ellen Trenn",
+          "type": "dj",
+          "time": "16:00",
+          "duration": 120
+        },
+        {
+          "id": "0d47c898",
+          "name": "Mlz",
+          "type": "dj",
+          "time": "18:00",
+          "duration": 120
+        },
+        {
+          "id": "b6f25658",
+          "name": "Mareike Bautz",
+          "type": "dj",
+          "time": "20:00",
+          "duration": 120
+        },
+        {
+          "id": "1d2e3609",
+          "name": "Face*",
+          "type": "dj",
+          "time": "22:00",
+          "duration": 150
+        }
+      ]
     }
   ]
 }
