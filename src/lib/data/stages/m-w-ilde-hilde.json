@@ -42,6 +42,88 @@
           "duration": 120
         }
       ]
+    },
+    {
+      "date": "2025-08-23",
+      "acts": [
+        {
+          "id": "9cede01e",
+          "name": "Borella & Robin Dey",
+          "type": "dj",
+          "time": "00:00",
+          "duration": 120
+        },
+        {
+          "id": "cdf5fb6d",
+          "name": "Maria Theresian von Eberg",
+          "type": "dj",
+          "time": "02:00",
+          "duration": 120
+        },
+        {
+          "id": "eb10f648",
+          "name": "Ouhana",
+          "type": "dj",
+          "time": "04:00",
+          "duration": 120
+        },
+        {
+          "id": "355881b7",
+          "name": "Wiek",
+          "type": "dj",
+          "time": "06:00",
+          "duration": 120
+        },
+        {
+          "id": "98495e6d",
+          "name": "Jetskifreunde Saarbrücken",
+          "type": "dj",
+          "time": "08:00",
+          "duration": 120
+        },
+        {
+          "id": "61bd7a76",
+          "name": "Ele & Aal (live)",
+          "type": "dj",
+          "time": "13:00",
+          "duration": 90
+        },
+        {
+          "id": "f2555eca",
+          "name": "Kiki Kokolores & Coordese",
+          "type": "dj",
+          "time": "14:30",
+          "duration": 120
+        },
+        {
+          "id": "00d6e16a",
+          "name": "Judith van Waterkant",
+          "type": "dj",
+          "time": "16:30",
+          "duration": 120
+        },
+        {
+          "id": "968d5630",
+          "name": "Karte Bu",
+          "type": "dj",
+          "time": "18:30",
+          "duration": 120
+        },
+        {
+          "id": "4c48966c",
+          "name": "Coco Loris",
+          "type": "dj",
+          "time": "20:30",
+          "duration": 120
+        },
+        {
+          "id": "5569901d",
+          "name": "Midas 104 (live)",
+          "type": "dj",
+          "time": "22:30",
+          "duration": 90
+        }
+      ]
     }
   ]
 }
