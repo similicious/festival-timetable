@@ -164,6 +164,74 @@
           "duration": 120
         }
       ]
+    },
+    {
+      "date": "2025-08-24",
+      "acts": [
+        {
+          "id": "0fb9d284",
+          "name": "Urbnmowgli & Moodrich",
+          "type": "dj",
+          "time": "01:00",
+          "duration": 120
+        },
+        {
+          "id": "90528169",
+          "name": "Young Lychee",
+          "type": "dj",
+          "time": "03:00",
+          "duration": 120
+        },
+        {
+          "id": "f905df32",
+          "name": "Die dreisten Drei",
+          "type": "dj",
+          "time": "05:00",
+          "duration": 120
+        },
+        {
+          "id": "fa347b01",
+          "name": "Cunt Cobain b2b Turbo Tjorgen",
+          "type": "dj",
+          "time": "07:00",
+          "duration": 180
+        },
+        {
+          "id": "b3e12149",
+          "name": "Rieke1312",
+          "type": "dj",
+          "time": "10:00",
+          "duration": 120
+        },
+        {
+          "id": "7255e8b5",
+          "name": "Excuse:u Takeover",
+          "type": "dj",
+          "time": "12:00",
+          "duration": 240
+        },
+        {
+          "id": "1a22c119",
+          "name": "Yamyam",
+          "type": "dj",
+          "time": "16:00",
+          "duration": 120
+        },
+        {
+          "id": "10a17072",
+          "name": "Marie Midori",
+          "type": "dj",
+          "time": "18:00",
+          "duration": 120
+        },
+        {
+          "id": "5b504a33",
+          "name": "DU Super Rush b2b Kimchi Cora",
+          "type": "dj",
+          "time": "20:00",
+          "duration": 120
+        }
+      ]
     }
   ]
 }
