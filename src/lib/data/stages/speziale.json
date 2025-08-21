@@ -103,6 +103,67 @@
           "duration": 180
         }
       ]
+    },
+    {
+      "date": "2025-08-24",
+      "acts": [
+        {
+          "id": "3e5a2948",
+          "name": "Alice D",
+          "type": "dj",
+          "time": "02:00",
+          "duration": 120
+        },
+        {
+          "id": "f7184eb5",
+          "name": "Rõse",
+          "type": "dj",
+          "time": "04:00",
+          "duration": 120
+        },
+        {
+          "id": "1cd08387",
+          "name": "Lampé vs Kularis",
+          "type": "dj",
+          "time": "06:00",
+          "duration": 120
+        },
+        {
+          "id": "14ac5057",
+          "name": "Ravemesse",
+          "type": "dj",
+          "time": "08:00",
+          "duration": 60
+        },
+        {
+          "id": "2b7f96d5",
+          "name": "Tobi Dei & Enzio Etchaberri",
+          "type": "dj",
+          "time": "14:00",
+          "duration": 120
+        },
+        {
+          "id": "267a37f0",
+          "name": "Sonnensysteme",
+          "type": "dj",
+          "time": "16:00",
+          "duration": 120
+        },
+        {
+          "id": "f6e4a88e",
+          "name": "Delia Plangg",
+          "type": "dj",
+          "time": "18:00",
+          "duration": 120
+        },
+        {
+          "id": "fb326a08",
+          "name": "Pilocka Krach",
+          "type": "dj",
+          "time": "20:00",
+          "duration": 120
+        }
+      ]
     }
   ]
 }
