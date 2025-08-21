@@ -1,0 +1,33 @@
+{
+  "id": "84d8b3c1",
+  "name": "Playground",
+  "icon": "🛝",
+  "days": [
+    {
+      "date": "2025-08-21",
+      "acts": [
+        {
+          "id": "faca1519",
+          "name": "Kaos Karaoke",
+          "type": "other",
+          "time": "18:00",
+          "duration": 180
+        },
+        {
+          "id": "5a743db0",
+          "name": "Kimme b2b Nisher",
+          "type": "dj",
+          "time": "21:00",
+          "duration": 120
+        },
+        {
+          "id": "f2fac430",
+          "name": "Modulism b2b Chris Ejarb",
+          "type": "dj",
+          "time": "23:00",
+          "duration": 120
+        }
+      ]
+    }
+  ]
+}
