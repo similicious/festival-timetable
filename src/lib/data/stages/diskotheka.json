@@ -86,7 +86,54 @@
           "name": "Fauna",
           "type": "dj",
           "time": "22:00",
-          "duration": 160
+          "duration": 150
+        }
+      ]
+    },
+    {
+      "date": "2025-08-23",
+      "acts": [
+        {
+          "id": "34c26da2",
+          "name": "Altum",
+          "type": "dj",
+          "time": "00:30",
+          "duration": 120
+        },
+        {
+          "id": "7ae09c6c",
+          "name": "Dead Sync",
+          "type": "dj",
+          "time": "02:30",
+          "duration": 60
+        },
+        {
+          "id": "86dd6406",
+          "name": "Ben Glock",
+          "type": "dj",
+          "time": "03:30",
+          "duration": 60
+        },
+        {
+          "id": "e48f40d2",
+          "name": "A-Flex",
+          "type": "dj",
+          "time": "04:30",
+          "duration": 120
+        },
+        {
+          "id": "a44f03a7",
+          "name": "Belasto b2b Mikanik",
+          "type": "dj",
+          "time": "06:30",
+          "duration": 120
+        },
+        {
+          "id": "4cae3a71",
+          "name": "Kaju b2b Yahn",
+          "type": "dj",
+          "time": "08:30",
+          "duration": 120
         }
       ]
     }
