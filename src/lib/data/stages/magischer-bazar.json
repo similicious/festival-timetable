@@ -76,10 +76,71 @@
         },
         {
           "id": "7104f59d",
-          "name": "Max Morenz",
+          "name": "Lax Morenz",
           "type": "dj",
           "time": "23:30",
           "duration": 160
+        }
+      ]
+    },
+    {
+      "date": "2025-08-23",
+      "acts": [
+        {
+          "id": "f7dd5c27",
+          "name": "Salty & Sour",
+          "type": "dj",
+          "time": "02:00",
+          "duration": 120
+        },
+        {
+          "id": "7546c8d5",
+          "name": "DJ Saesh",
+          "type": "dj",
+          "time": "04:00",
+          "duration": 120
+        },
+        {
+          "id": "42308c17",
+          "name": "Open Mic",
+          "type": "other",
+          "time": "12:00",
+          "duration": 180
+        },
+        {
+          "id": "6ea542b2",
+          "name": "Das Günther (live)",
+          "type": "dj",
+          "time": "15:30",
+          "duration": 60
+        },
+        {
+          "id": "60b05b5d",
+          "name": "Julez (live)",
+          "type": "dj",
+          "time": "17:30",
+          "duration": 60
+        },
+        {
+          "id": "bb7cce9d",
+          "name": "Pestizid & Jonathan Wr. Jr.",
+          "type": "dj",
+          "time": "19:00",
+          "duration": 60
+        },
+        {
+          "id": "a20362b7",
+          "name": "Cintaq, Juicy Julez, George Geil, Vinilla, Schlauerhauer",
+          "type": "dj",
+          "time": "20:30",
+          "duration": 60
+        },
+        {
+          "id": "44cb4bcc",
+          "name": "VY Tran b2b 2Bias",
+          "type": "dj",
+          "time": "22:00",
+          "duration": 120
         }
       ]
     }
