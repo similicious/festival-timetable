@@ -45,6 +45,41 @@
           "type": "dj",
           "time": "03:00",
           "duration": 120
+        },
+        {
+          "id": "1aeca59e",
+          "name": "Flinta DJ Workshop",
+          "type": "workshop",
+          "time": "12:00",
+          "duration": 360
+        },
+        {
+          "id": "dd84e2c0",
+          "name": "Nica Unfug (live)",
+          "type": "dj",
+          "time": "18:00",
+          "duration": 120
+        },
+        {
+          "id": "35c49c15",
+          "name": ".umi.",
+          "type": "dj",
+          "time": "19:00",
+          "duration": 120
+        },
+        {
+          "id": "560eeb12",
+          "name": "Fatmuska",
+          "type": "dj",
+          "time": "21:00",
+          "duration": 120
+        },
+        {
+          "id": "0423a7cc",
+          "name": "Mightybrills",
+          "type": "dj",
+          "time": "23:00",
+          "duration": 120
         }
       ]
     }
