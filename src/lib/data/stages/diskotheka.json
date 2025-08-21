@@ -134,6 +134,48 @@
           "type": "dj",
           "time": "08:30",
           "duration": 120
+        },
+        {
+          "id": "dc8a107d",
+          "name": "Late Night Jockel Session",
+          "type": "dj",
+          "time": "12:00",
+          "duration": 120
+        },
+        {
+          "id": "fee37782",
+          "name": "Isis b2b Carl Coi",
+          "type": "dj",
+          "time": "14:00",
+          "duration": 120
+        },
+        {
+          "id": "0ae47991",
+          "name": "Bebibelli",
+          "type": "dj",
+          "time": "16:00",
+          "duration": 120
+        },
+        {
+          "id": "be6b6cb2",
+          "name": "Seebo b2b Vom Spazier",
+          "type": "dj",
+          "time": "18:00",
+          "duration": 120
+        },
+        {
+          "id": "3ce07758",
+          "name": "Vinculum",
+          "type": "dj",
+          "time": "20:00",
+          "duration": 120
+        },
+        {
+          "id": "37c8f135",
+          "name": "Valeria l",
+          "type": "dj",
+          "time": "22:00",
+          "duration": 120
         }
       ]
     }
