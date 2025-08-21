@@ -1,0 +1,94 @@
+{
+  "id": "d160495f",
+  "name": "Diskotheka",
+  "icon": "🪩",
+  "days": [
+    {
+      "date": "2025-08-21",
+      "acts": [
+        {
+          "id": "fa6bbf56",
+          "name": "Wanda Wild",
+          "type": "dj",
+          "time": "20:00",
+          "duration": 120
+        },
+        {
+          "id": "3f2ffe32",
+          "name": "Mauro Basso",
+          "type": "dj",
+          "time": "22:00",
+          "duration": 120
+        }
+      ]
+    },
+    {
+      "date": "2025-08-22",
+      "acts": [
+        {
+          "id": "9a2c590f",
+          "name": "Denis Kleiner",
+          "type": "dj",
+          "time": "00:00",
+          "duration": 120
+        },
+        {
+          "id": "12dcfa4d",
+          "name": "Silan",
+          "type": "dj",
+          "time": "02:00",
+          "duration": 120
+        },
+        {
+          "id": "861984b5",
+          "name": "Kobilicious",
+          "type": "dj",
+          "time": "04:00",
+          "duration": 120
+        },
+        {
+          "id": "6fed35c8",
+          "name": "Ani",
+          "type": "dj",
+          "time": "13:00",
+          "duration": 60
+        },
+        {
+          "id": "b605a1f3",
+          "name": "Karhua",
+          "type": "dj",
+          "time": "14:00",
+          "duration": 120
+        },
+        {
+          "id": "3e34ebbd",
+          "name": "White Ass Ponys",
+          "type": "dj",
+          "time": "16:00",
+          "duration": 120
+        },
+        {
+          "id": "ec5d2f56",
+          "name": "Køps",
+          "type": "dj",
+          "time": "18:00",
+          "duration": 120
+        },
+        {
+          "id": "7d611faa",
+          "name": "DJ Hectical",
+          "type": "dj",
+          "time": "20:00",
+          "duration": 120
+        },
+        {
+          "id": "7e9361f6",
+          "name": "Fauna",
+          "type": "dj",
+          "time": "22:00",
+          "duration": 160
+        }
+      ]
+    }
+  ]
+}
