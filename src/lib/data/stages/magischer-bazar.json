@@ -1,7 +1,7 @@
 {
   "id": "632ca719",
   "name": "Magischer Bazar",
-  "icon": "✨",
+  "icon": "🔮",
   "days": [
     {
       "date": "2025-08-21",
@@ -12,6 +12,74 @@
           "type": "dj",
           "time": "18:00",
           "duration": 120
+        },
+        {
+          "id": "0008c4bd",
+          "name": "Grace & Ghetto",
+          "type": "dj",
+          "time": "20:00",
+          "duration": 120
+        },
+        {
+          "id": "1431d12e",
+          "name": "Sophia Wach",
+          "type": "dj",
+          "time": "22:00",
+          "duration": 120
+        }
+      ]
+    },
+    {
+      "date": "2025-08-22",
+      "acts": [
+        {
+          "id": "fb61a4c1",
+          "name": "Spion & Spion",
+          "type": "dj",
+          "time": "00:00",
+          "duration": 120
+        },
+        {
+          "id": "5b528212",
+          "name": "Mieke Banger",
+          "type": "dj",
+          "time": "03:00",
+          "duration": 60
+        },
+        {
+          "id": "aa367c4f",
+          "name": "Lucas Scheermann",
+          "type": "dj",
+          "time": "14:00",
+          "duration": 120
+        },
+        {
+          "id": "05633925",
+          "name": "Lisa Maé (live)",
+          "type": "dj",
+          "time": "18:00",
+          "duration": 60
+        },
+        {
+          "id": "f336723a",
+          "name": "Kalitou (live)",
+          "type": "dj",
+          "time": "20:00",
+          "duration": 60
+        },
+        {
+          "id": "ccd7ac9d",
+          "name": "Pølaroit",
+          "type": "dj",
+          "time": "22:00",
+          "duration": 120
+        },
+        {
+          "id": "7104f59d",
+          "name": "Max Morenz",
+          "type": "dj",
+          "time": "23:30",
+          "duration": 160
         }
       ]
     }
