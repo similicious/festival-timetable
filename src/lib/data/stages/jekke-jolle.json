@@ -1,0 +1,47 @@
+{
+  "id": "e2df3459",
+  "name": "Jekke Jolle",
+  "icon": "🌇",
+  "days": [
+    {
+      "date": "2025-08-22",
+      "acts": [
+        {
+          "id": "679edc8b",
+          "name": "Karlo Kurbel",
+          "type": "dj",
+          "time": "13:00",
+          "duration": 120
+        },
+        {
+          "id": "b5b653bc",
+          "name": "Rosa Kante",
+          "type": "dj",
+          "time": "15:00",
+          "duration": 120
+        },
+        {
+          "id": "68bb20ea",
+          "name": "Susi & Paula",
+          "type": "dj",
+          "time": "17:00",
+          "duration": 120
+        },
+        {
+          "id": "218b54ac",
+          "name": "Paulu Pocket & Foolik",
+          "type": "dj",
+          "time": "19:00",
+          "duration": 180
+        },
+        {
+          "id": "348b41b0",
+          "name": "Phauna",
+          "type": "dj",
+          "time": "22:00",
+          "duration": 120
+        }
+      ]
+    }
+  ]
+}
