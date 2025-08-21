@@ -1,0 +1,47 @@
+{
+  "id": "6057dae7",
+  "name": "M(w)ilde Hilde",
+  "icon": "🚀",
+  "days": [
+    {
+      "date": "2025-08-22",
+      "acts": [
+        {
+          "id": "5d2c5878",
+          "name": "Burntale",
+          "type": "dj",
+          "time": "14:00",
+          "duration": 120
+        },
+        {
+          "id": "85ccd389",
+          "name": "Mytripismytrip (live)",
+          "type": "dj",
+          "time": "16:00",
+          "duration": 120
+        },
+        {
+          "id": "2cf7c0ca",
+          "name": "Lemonella",
+          "type": "dj",
+          "time": "18:00",
+          "duration": 120
+        },
+        {
+          "id": "3c409e89",
+          "name": "Nyembamba",
+          "type": "dj",
+          "time": "20:00",
+          "duration": 120
+        },
+        {
+          "id": "9f89d89f",
+          "name": "Leni",
+          "type": "dj",
+          "time": "22:00",
+          "duration": 120
+        }
+      ]
+    }
+  ]
+}
