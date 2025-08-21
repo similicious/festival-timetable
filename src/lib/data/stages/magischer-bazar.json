@@ -1,0 +1,19 @@
+{
+  "id": "632ca719",
+  "name": "Magischer Bazar",
+  "icon": "✨",
+  "days": [
+    {
+      "date": "2025-08-21",
+      "acts": [
+        {
+          "id": "1824f45a",
+          "name": "Rare.",
+          "type": "dj",
+          "time": "18:00",
+          "duration": 120
+        }
+      ]
+    }
+  ]
+}
