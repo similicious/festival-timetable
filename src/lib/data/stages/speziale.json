@@ -42,6 +42,67 @@
           "duration": 180
         }
       ]
+    },
+    {
+      "date": "2025-08-23",
+      "acts": [
+        {
+          "id": "f0631002",
+          "name": "Casimir von Oettingen & Electronic Elephant",
+          "type": "dj",
+          "time": "01:00",
+          "duration": 120
+        },
+        {
+          "id": "f888555c",
+          "name": "Agy3na",
+          "type": "dj",
+          "time": "04:00",
+          "duration": 120
+        },
+        {
+          "id": "5269f14a",
+          "name": "Mantravine (live)",
+          "type": "dj",
+          "time": "14:00",
+          "duration": 90
+        },
+        {
+          "id": "efc6fcf0",
+          "name": "Amewu (live)",
+          "type": "dj",
+          "time": "15:45",
+          "duration": 75
+        },
+        {
+          "id": "ab506a8d",
+          "name": "Justice",
+          "type": "dj",
+          "time": "17:00",
+          "duration": 120
+        },
+        {
+          "id": "78d5d15f",
+          "name": "Gizmo & Mr. Chao",
+          "type": "dj",
+          "time": "19:00",
+          "duration": 120
+        },
+        {
+          "id": "a4f3e82b",
+          "name": "Stop & Go",
+          "type": "dj",
+          "time": "21:00",
+          "duration": 120
+        },
+        {
+          "id": "85e76440",
+          "name": "Tetrameth",
+          "type": "dj",
+          "time": "23:00",
+          "duration": 180
+        }
+      ]
     }
   ]
 }
