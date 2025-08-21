@@ -117,6 +117,60 @@
           "duration": 150
         }
       ]
+    },
+    {
+      "date": "2025-08-24",
+      "acts": [
+        {
+          "id": "7463815b",
+          "name": "Philippa Pacho",
+          "type": "dj",
+          "time": "00:30",
+          "duration": 150
+        },
+        {
+          "id": "4ba73b4c",
+          "name": "Vincent Neumann",
+          "type": "dj",
+          "time": "03:00",
+          "duration": 150
+        },
+        {
+          "id": "acc6bab1",
+          "name": "Laxberger",
+          "type": "dj",
+          "time": "05:30",
+          "duration": 150
+        },
+        {
+          "id": "5060c969",
+          "name": "Syron b2b No.Mads",
+          "type": "dj",
+          "time": "11:00",
+          "duration": 120
+        },
+        {
+          "id": "ed88e461",
+          "name": "Luis M",
+          "type": "dj",
+          "time": "13:00",
+          "duration": 120
+        },
+        {
+          "id": "7e904a61",
+          "name": "SHA",
+          "type": "dj",
+          "time": "15:00",
+          "duration": 150
+        },
+        {
+          "id": "e53cbce1",
+          "name": "Sama' Abdulhadi",
+          "type": "dj",
+          "time": "17:30",
+          "duration": 120
+        }
+      ]
     }
   ]
 }
