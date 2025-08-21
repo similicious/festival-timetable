@@ -124,6 +124,107 @@
           "duration": 90
         }
       ]
+    },
+    {
+      "date": "2025-08-24",
+      "acts": [
+        {
+          "id": "667d0700",
+          "name": "Maka",
+          "type": "dj",
+          "time": "00:00",
+          "duration": 120
+        },
+        {
+          "id": "0367c9f7",
+          "name": "Andys Echo",
+          "type": "dj",
+          "time": "02:00",
+          "duration": 60
+        },
+        {
+          "id": "d7247379",
+          "name": "Elixir",
+          "type": "dj",
+          "time": "03:00",
+          "duration": 120
+        },
+        {
+          "id": "d782df48",
+          "name": "Lou Velours",
+          "type": "dj",
+          "time": "05:00",
+          "duration": 120
+        },
+        {
+          "id": "1b4d09f7",
+          "name": "Käptn 12 & Düsentrieb",
+          "type": "dj",
+          "time": "07:00",
+          "duration": 120
+        },
+        {
+          "id": "034b86e4",
+          "name": "Niju & Ninze (live)",
+          "type": "dj",
+          "time": "12:00",
+          "duration": 180
+        },
+        {
+          "id": "d49012c2",
+          "name": "Matildoutz",
+          "type": "dj",
+          "time": "15:00",
+          "duration": 120
+        },
+        {
+          "id": "5d196133",
+          "name": "Kermesse (live)",
+          "type": "dj",
+          "time": "17:00",
+          "duration": 120
+        },
+        {
+          "id": "fb7e4747",
+          "name": "Thor Rixon (live)",
+          "type": "dj",
+          "time": "19:00",
+          "duration": 120
+        },
+        {
+          "id": "21de18eb",
+          "name": "Ella",
+          "type": "dj",
+          "time": "23:00",
+          "duration": 120
+        }
+      ]
+    },
+    {
+      "date": "2025-08-25",
+      "acts": [
+        {
+          "id": "acc28924",
+          "name": "Sinamin",
+          "type": "dj",
+          "time": "01:00",
+          "duration": 120
+        },
+        {
+          "id": "3e25ff50",
+          "name": "Daniel Krau",
+          "type": "dj",
+          "time": "03:00",
+          "duration": 150
+        },
+        {
+          "id": "4fe664e4",
+          "name": "Volker Arnold",
+          "type": "dj",
+          "time": "05:30",
+          "duration": 120
+        }
+      ]
     }
   ]
 }
