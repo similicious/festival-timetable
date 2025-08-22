@@ -171,6 +171,81 @@
           "duration": 120
         }
       ]
+    },
+    {
+      "date": "2025-08-24",
+      "acts": [
+        {
+          "id": "b7419ff4",
+          "name": "???",
+          "type": "dj",
+          "time": "01:00",
+          "duration": 120
+        },
+        {
+          "id": "f0c14992",
+          "name": "Haptik (live)",
+          "type": "dj",
+          "time": "03:00",
+          "duration": 120
+        },
+        {
+          "id": "ecbbc373",
+          "name": "Zeki",
+          "type": "dj",
+          "time": "05:00",
+          "duration": 120
+        },
+        {
+          "id": "14d3dd40",
+          "name": "Professor Rave",
+          "type": "dj",
+          "time": "07:00",
+          "duration": 120
+        },
+        {
+          "id": "e400df56",
+          "name": "Robot Mai",
+          "type": "dj",
+          "time": "10:00",
+          "duration": 120
+        },
+        {
+          "id": "52c7b1cb",
+          "name": "El Batos",
+          "type": "dj",
+          "time": "12:00",
+          "duration": 120
+        },
+        {
+          "id": "7f5b01b9",
+          "name": "Theryoughost",
+          "type": "dj",
+          "time": "14:00",
+          "duration": 120
+        },
+        {
+          "id": "3d075f69",
+          "name": "Autokorrekt",
+          "type": "dj",
+          "time": "16:00",
+          "duration": 120
+        },
+        {
+          "id": "af7e080b",
+          "name": "Karmakind",
+          "type": "dj",
+          "time": "18:00",
+          "duration": 120
+        },
+        {
+          "id": "d8c5561e",
+          "name": "Live Jam",
+          "type": "other",
+          "time": "20:00",
+          "duration": 120
+        }
+      ]
     }
   ]
 }
