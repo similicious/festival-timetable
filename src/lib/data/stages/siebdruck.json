@@ -201,7 +201,7 @@
           "name": "Professor Rave",
           "type": "dj",
           "time": "07:00",
-          "duration": 120
+          "duration": 180
         },
         {
           "id": "e400df56",
@@ -234,7 +234,7 @@
         {
           "id": "af7e080b",
           "name": "Karmakind",
-          "type": "dj",
+          "type": "band",
           "time": "18:00",
           "duration": 120
         },
