@@ -1,0 +1,94 @@
+{
+  "id": "bdfbd0c6",
+  "name": "Siebdruck",
+  "icon": "👕",
+  "days": [
+    {
+      "date": "2025-08-21",
+      "acts": [
+        {
+          "id": "b7deddd8",
+          "name": "Barfuß von den Print Shop Boys",
+          "type": "dj",
+          "time": "18:00",
+          "duration": 120
+        },
+        {
+          "id": "46108ba8",
+          "name": "Lio Vast (live)",
+          "type": "dj",
+          "time": "20:00",
+          "duration": 60
+        },
+        {
+          "id": "2b91330f",
+          "name": "Mauwi & Dengsche",
+          "type": "dj",
+          "time": "21:00",
+          "duration": 120
+        },
+        {
+          "id": "a0a41400",
+          "name": "Ralph X",
+          "type": "dj",
+          "time": "23:00",
+          "duration": 120
+        }
+      ]
+    },
+    {
+      "date": "2025-08-22",
+      "acts": [
+        {
+          "id": "4b07b74c",
+          "name": "Kunterweiß",
+          "type": "dj",
+          "time": "01:00",
+          "duration": 150
+        },
+        {
+          "id": "ccac3b01",
+          "name": "Bruno Otrano",
+          "type": "dj",
+          "time": "03:30",
+          "duration": 120
+        },
+        {
+          "id": "e28769bd",
+          "name": "Kandilari & Yasmeen (live)",
+          "type": "dj",
+          "time": "14:00",
+          "duration": 120
+        },
+        {
+          "id": "07bc053d",
+          "name": "Tao",
+          "type": "dj",
+          "time": "16:00",
+          "duration": 120
+        },
+        {
+          "id": "971ccca6",
+          "name": "Tala Berg",
+          "type": "dj",
+          "time": "18:00",
+          "duration": 120
+        },
+        {
+          "id": "e1cdd7c0",
+          "name": "Zahara",
+          "type": "dj",
+          "time": "20:00",
+          "duration": 120
+        },
+        {
+          "id": "8202f01a",
+          "name": "Jonathan Haehn / Suricata",
+          "type": "dj",
+          "time": "22:00",
+          "duration": 180
+        }
+      ]
+    }
+  ]
+}
