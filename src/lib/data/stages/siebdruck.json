@@ -89,6 +89,88 @@
           "duration": 180
         }
       ]
+    },
+    {
+      "date": "2025-08-23",
+      "acts": [
+        {
+          "id": "dd669379",
+          "name": "Nada Formosa",
+          "type": "dj",
+          "time": "01:00",
+          "duration": 120
+        },
+        {
+          "id": "67685ae7",
+          "name": "Berry Jane",
+          "type": "dj",
+          "time": "03:00",
+          "duration": 120
+        },
+        {
+          "id": "1a16cedd",
+          "name": "Uli Vinyl (DJ'Vu)",
+          "type": "dj",
+          "time": "05:00",
+          "duration": 120
+        },
+        {
+          "id": "4c0182d9",
+          "name": "Verzogerer der Printshop Boys",
+          "type": "dj",
+          "time": "11:00",
+          "duration": 90
+        },
+        {
+          "id": "aaacdf48",
+          "name": "Xivis",
+          "type": "band",
+          "time": "12:30",
+          "duration": 90
+        },
+        {
+          "id": "625d86f0",
+          "name": "Herd",
+          "type": "band",
+          "time": "14:00",
+          "duration": 90
+        },
+        {
+          "id": "bbf3bfc5",
+          "name": "Faroul",
+          "type": "band",
+          "time": "15:30",
+          "duration": 120
+        },
+        {
+          "id": "d19b6724",
+          "name": "Patrick Luwak (live)",
+          "type": "dj",
+          "time": "17:30",
+          "duration": 120
+        },
+        {
+          "id": "5cdf62aa",
+          "name": "Judith Ahrends (live)",
+          "type": "dj",
+          "time": "19:30",
+          "duration": 90
+        },
+        {
+          "id": "a39f8015",
+          "name": "Dr. Warte mal",
+          "type": "band",
+          "time": "21:00",
+          "duration": 120
+        },
+        {
+          "id": "620b93c8",
+          "name": "Joe Lion",
+          "type": "dj",
+          "time": "23:00",
+          "duration": 120
+        }
+      ]
     }
   ]
 }
