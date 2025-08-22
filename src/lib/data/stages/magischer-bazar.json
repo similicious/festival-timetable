@@ -63,7 +63,7 @@
         {
           "id": "f336723a",
           "name": "Kalitou (live)",
-          "type": "dj",
+          "type": "band",
           "time": "20:00",
           "duration": 60
         },
@@ -103,35 +103,35 @@
         {
           "id": "42308c17",
           "name": "Open Mic",
-          "type": "other",
+          "type": "band",
           "time": "12:00",
           "duration": 180
         },
         {
           "id": "6ea542b2",
           "name": "Das Günther (live)",
-          "type": "dj",
+          "type": "band",
           "time": "15:30",
           "duration": 60
         },
         {
           "id": "60b05b5d",
           "name": "Julez (live)",
-          "type": "dj",
+          "type": "band",
           "time": "17:30",
           "duration": 60
         },
         {
           "id": "bb7cce9d",
           "name": "Pestizid & Jonathan Wr. Jr.",
-          "type": "dj",
+          "type": "band",
           "time": "19:00",
           "duration": 60
         },
         {
           "id": "a20362b7",
           "name": "Cintaq, Juicy Julez, George Geil, Vinilla, Schlauerhauer",
-          "type": "dj",
+          "type": "band",
           "time": "20:30",
           "duration": 60
         },
