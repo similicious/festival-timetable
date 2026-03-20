@@ -1,11 +1,10 @@
 import tailwindcss from "@tailwindcss/vite";
 import { sveltekit } from "@sveltejs/kit/vite";
 import { defineConfig } from "vite";
-import { visualizer } from "rollup-plugin-visualizer";
 import devtoolsJson from "vite-plugin-devtools-json";
 import { SvelteKitPWA } from "@vite-pwa/sveltekit";
 import { execSync } from "node:child_process";
-import festival from "./src/lib/data/festival.json";
+import festival from "./src/lib/data/timetable/festival.json";
 
 const commitHash = execSync("git rev-parse --short HEAD").toString();
 

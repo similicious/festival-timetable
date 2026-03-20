@@ -1,3 +1,4 @@
+import { getFestival } from "$lib/utils/get-festival";
 import { getPageDescription } from "$lib/utils/get-page-description";
 import { getPageTitle } from "$lib/utils/get-page-title";
 import type { Handle } from "@sveltejs/kit";
@@ -11,8 +12,9 @@ export const handle: Handle = async ({ event, resolve }) => {
 
   let body = await response.text();
 
-  const pageTitle = getPageTitle();
-  const pageDescription = getPageDescription();
+  const festival = getFestival();
+  const pageTitle = getPageTitle(festival);
+  const pageDescription = getPageDescription(festival);
 
   body = body.replace("%app.initialTitle%", pageTitle);
   body = body.replace("%app.description%", pageDescription);

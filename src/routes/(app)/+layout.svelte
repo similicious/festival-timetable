@@ -20,7 +20,7 @@
   );
 
   let pageHeading = $derived(`${navigationItem?.icon} ${navigationItem?.name}`);
-  let pageTitle = $derived(getPageTitle(navigationItem));
+  let pageTitle = $derived(getPageTitle(data.festival, navigationItem));
 
   registerSW();
 </script>

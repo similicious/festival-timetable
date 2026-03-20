@@ -30,3 +30,6 @@ vite.config.ts.timestamp-*
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# timetable data
+src/lib/data/timetable
