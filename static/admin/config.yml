@@ -84,7 +84,7 @@ collections:
               - label: "Duration"
                 name: "duration"
                 widget: "number"
-                valueType: "int"
+                value_type: "int"
                 default: 120
   - label: Pages
     name: "pages"
