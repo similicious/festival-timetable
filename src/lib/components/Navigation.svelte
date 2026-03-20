@@ -4,7 +4,7 @@
   import { getNavigation } from "$lib/utils/get-navigation";
   let { stages }: { stages: Stage[] } = $props();
 
-  const navigationItems = getNavigation(stages);
+  const navigationItems = $derived(getNavigation(stages));
 </script>
 
 <ul class="h-full overflow-y-auto text-4xl">

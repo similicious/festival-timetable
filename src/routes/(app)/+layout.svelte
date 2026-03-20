@@ -12,8 +12,8 @@
   const webManifestLink = $derived(pwaInfo ? pwaInfo.webManifest.linkTag : "");
 
   let { children, data } = $props();
-  const stages = data.stages;
-  const navigation = getNavigation(stages);
+  const stages = $derived(data.stages);
+  const navigation = $derived(getNavigation(stages));
 
   let navigationItem = $derived(
     navigation.find((item) => item.path === page.url.pathname),
