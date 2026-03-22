@@ -68,6 +68,12 @@ export default defineConfig({
           "client/**/*.{js,css,ico,png,svg,webp,webmanifest}",
           "prerendered/**/*.{html,json,svg}",
         ],
+        // Don't precache sveltia cms
+        manifestTransforms: [
+          (entries) => ({
+            manifest: entries.filter((e) => e.size < 500_000),
+          }),
+        ],
       },
     }),
     // visualizer({
