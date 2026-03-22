@@ -1,4 +1,4 @@
 # Docker image to use for building
 image: node:lts
-command: corepack enable && yarn && yarn build
+command: chmod +x ./clone-timetable-repo.sh && ./clone-timetable-repo.sh && corepack enable && yarn && yarn build
 public: build
