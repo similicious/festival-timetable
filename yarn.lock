@@ -1583,10 +1583,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltia/cms@npm:^0.147.2":
-  version: 0.147.2
-  resolution: "@sveltia/cms@npm:0.147.2"
-  checksum: 10c0/68e117e181fcccdfb8b29e56b057b45804865b07509cb69aab7ba93f6cbb0c14d59d3231fb5f7971b8163ed06dab0caeb144e34190a561c7b808e2bc263ae977
+"@sveltia/cms@npm:^0.148.1":
+  version: 0.148.1
+  resolution: "@sveltia/cms@npm:0.148.1"
+  checksum: 10c0/f9672e0f1ebf3b2f2f208db3721ff4db5a317c4c563886ab9e76ffdfb56e1fc31ff15d78167c6bc1655b5530096c1ce8bfd7d43b8bdff33299964deebf4a4dd1
   languageName: node
   linkType: hard
 
@@ -2725,7 +2725,7 @@ __metadata:
     "@sveltejs/adapter-static": "npm:^3.0.10"
     "@sveltejs/kit": "npm:^2.55.0"
     "@sveltejs/vite-plugin-svelte": "npm:^7.0.0"
-    "@sveltia/cms": "npm:^0.147.2"
+    "@sveltia/cms": "npm:^0.148.1"
     "@tailwindcss/typography": "npm:^0.5.19"
     "@tailwindcss/vite": "npm:^4.2.2"
     "@types/lodash-es": "npm:^4.17.12"
@@ -2738,7 +2738,7 @@ __metadata:
     prettier-plugin-svelte: "npm:^3.5.1"
     prettier-plugin-tailwindcss: "npm:^0.7.2"
     rollup-plugin-visualizer: "npm:^7.0.1"
-    svelte: "npm:^5.54.0"
+    svelte: "npm:^5.54.1"
     svelte-check: "npm:^4.4.5"
     svelte-persisted-store: "npm:^0.12.0"
     tailwindcss: "npm:^4.2.2"
@@ -5009,9 +5009,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:^5.54.0":
-  version: 5.54.0
-  resolution: "svelte@npm:5.54.0"
+"svelte@npm:^5.54.1":
+  version: 5.54.1
+  resolution: "svelte@npm:5.54.1"
   dependencies:
     "@jridgewell/remapping": "npm:^2.3.4"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -5029,7 +5029,7 @@ __metadata:
     locate-character: "npm:^3.0.0"
     magic-string: "npm:^0.30.11"
     zimmerframe: "npm:^1.1.2"
-  checksum: 10c0/e14282eb4b66d750f9dc9574db7379e24c364a6c4c85b9bc6e84a869f4a902906ddda46499cdadd8c469ca32f3caf22db6a4925c5952f0e8d22caed3967a2c2d
+  checksum: 10c0/d1ee60de085c0c0d2c848942068722e2c5fb4701f9f0a1938ffffc456794cec06fb6d0922f238e18d6bc6fd5ddabe6f3387222e0aba4650fec7a6070576c4a19
   languageName: node
   linkType: hard
 
