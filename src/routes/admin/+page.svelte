@@ -5,7 +5,7 @@
 
   const festival = getFestival();
   const siteDomain = new URL(festival.publicUrl).host;
-  const repo = new URL(env.PUBLIC_TIMETABLE_REPO).pathname;
+  const repo = new URL(env.PUBLIC_TIMETABLE_REPO).pathname.substring(1);
 
   CMS.init({
     config: {
