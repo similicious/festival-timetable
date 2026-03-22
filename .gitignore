@@ -33,3 +33,4 @@ vite.config.ts.timestamp-*
 
 # timetable data
 src/lib/data/timetable
+src/lib/data/README.md

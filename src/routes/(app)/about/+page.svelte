@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { PUBLIC_TIMETABLE_REPO } from "$env/static/public";
   import Prose from "$lib/components/Prose.svelte";
   import type { PageProps } from "../$types";
 
@@ -69,4 +70,10 @@
   >
     {BUILD_COMMIT}
   </a>
+  using timetable at
+  <a
+    href="{PUBLIC_TIMETABLE_REPO}/commit/{BUILD_TIMETABLE_COMMIT}"
+    target="_blank"
+    class="underline">{BUILD_TIMETABLE_COMMIT}</a
+  >.
 </p>

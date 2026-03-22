@@ -6,12 +6,18 @@ import { SvelteKitPWA } from "@vite-pwa/sveltekit";
 import { execSync } from "node:child_process";
 import festival from "./src/lib/data/timetable/festival.json";
 
-const commitHash = execSync("git rev-parse --short HEAD").toString();
+const commitHash = execSync("git rev-parse --short HEAD").toString().trim();
+const timeTableCommitHash = execSync(
+  "git -C ./src/lib/data/timetable rev-parse --short HEAD",
+)
+  .toString()
+  .trim();
 
 export default defineConfig({
   define: {
     BUILD_COMMIT: JSON.stringify(commitHash),
     BUILD_DATE: JSON.stringify(new Date()),
+    BUILD_TIMETABLE_COMMIT: JSON.stringify(timeTableCommitHash),
   },
   plugins: [
     devtoolsJson(),
