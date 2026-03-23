@@ -1,6 +1,7 @@
 import tailwindcss from "@tailwindcss/vite";
 import { sveltekit } from "@sveltejs/kit/vite";
 import { defineConfig } from "vite";
+import type { Plugin } from "vite";
 import devtoolsJson from "vite-plugin-devtools-json";
 import { SvelteKitPWA } from "@vite-pwa/sveltekit";
 import { execSync } from "node:child_process";
@@ -73,17 +74,32 @@ export default defineConfig({
           "client/**/*.{js,css,ico,png,svg,webp,webmanifest}",
           "prerendered/**/*.{html,json,svg}",
         ],
-        // Don't add precache @sveltia/cms
-        manifestTransforms: [
-          (entries) => ({
-            manifest: entries.filter((e) => e.size < 500_000),
-          }),
-        ],
+        // Don't precache @sveltia/cms
+        globIgnores: ["**/sveltia-cms-*.js"],
+        // .. and fail the build should the chunk name change
+        maximumFileSizeToCacheInBytes: 500_000,
       },
     }),
+    chunkNameOverride(),
     // visualizer({
     //   emitFile: true,
     //   filename: "stats.html",
     // }),
   ],
 });
+
+function chunkNameOverride(): Plugin {
+  return {
+    name: "chunk-name-override-plugin",
+    apply: "build" as const,
+    config(config: any) {
+      config.build.rolldownOptions.output.chunkFileNames =
+        config.build.rolldownOptions.output.chunkFileNames.replace(
+          "[hash]",
+          `[name]-[hash]`,
+        );
+
+      return config;
+    },
+  };
+}
