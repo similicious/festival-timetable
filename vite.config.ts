@@ -64,11 +64,16 @@ export default defineConfig({
       workbox: {
         clientsClaim: true,
         skipWaiting: true,
+        additionalManifestEntries: [
+          // Manually adding the env.js file as it's generated after the service worker build
+          // https://github.com/vite-pwa/sveltekit/issues/98#issuecomment-2566411227
+          { revision: new Date().valueOf().toString(), url: "_app/env.js" },
+        ],
         globPatterns: [
           "client/**/*.{js,css,ico,png,svg,webp,webmanifest}",
           "prerendered/**/*.{html,json,svg}",
         ],
-        // Don't precache sveltia cms
+        // Don't add precache @sveltia/cms
         manifestTransforms: [
           (entries) => ({
             manifest: entries.filter((e) => e.size < 500_000),
